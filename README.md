@@ -256,6 +256,9 @@ Verify the claims of vendors you have to use.
 - **[awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai)** — Stricter "100% on-device" filter.
 - **[awesome-ai-mine](https://github.com/BrethofAI/awesome-ai-mine)** — Vendor ToS / license analysis. Receipts for the privacy claims here.
 - **[awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt)** — Tool discovery for AI agents.
+- **[awesome-linux-for-ai](https://github.com/BrethofAI/awesome-linux-for-ai)** — Linux distros for the self-hosted privacy-respecting AI stack.
+- **[awesome-mcp-servers](https://github.com/BrethofAI/awesome-mcp-servers)** — MCP servers; permission-tag column there matches the privacy filter here.
+- **[anti-dev-tier-list](https://github.com/BrethofAI/anti-dev-tier-list)** — The privacy-violating practices we recommend avoiding.
 
 ## Contributing
 
