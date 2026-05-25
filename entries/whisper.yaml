@@ -3,8 +3,8 @@ slug: whisper
 url: https://github.com/openai/whisper
 category: open-weights-models-you-can-audit
 category_label: Open-Weights Models You Can Audit
-tagline: ''
+tagline: OpenAI's open-weights ASR.
 tags: []
 list: private-ai
 added: '2026-04-30'
-category_order: 9
+category_order: 2

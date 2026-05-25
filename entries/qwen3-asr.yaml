@@ -3,8 +3,8 @@ slug: qwen3-asr
 url: https://github.com/QwenLM/Qwen3-ASR
 category: open-weights-models-you-can-audit
 category_label: Open-Weights Models You Can Audit
-tagline: ''
+tagline: Multilingual ASR model. Powers Brethof Voice Pro.
 tags: []
 list: private-ai
 added: '2026-04-30'
-category_order: 9
+category_order: 2
