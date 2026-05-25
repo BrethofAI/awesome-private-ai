@@ -6,7 +6,11 @@ category_label: On-Device AI
 tagline: 'Offline voice-to-text. Audio, transcripts, and personal training data never
   leave your machine. 30 transcription languages, 38 for offline translation. *Disclosure:
   maintained by us.*'
-tags: []
+tags:
+- on-device
+- closed source
+- free
+- paid
 list: private-ai
 added: '2026-04-30'
 category_order: 0

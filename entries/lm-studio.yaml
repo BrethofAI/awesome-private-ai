@@ -4,7 +4,10 @@ url: https://lmstudio.ai
 category: on-device-ai
 category_label: On-Device AI
 tagline: Polished desktop app for local models. Free for personal + commercial.
-tags: []
+tags:
+- on-device
+- closed source
+- free
 list: private-ai
 added: '2026-04-30'
 category_order: 0

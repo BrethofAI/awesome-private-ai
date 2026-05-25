@@ -4,7 +4,11 @@ url: https://localai.io
 category: self-hostable-ai-stacks
 category_label: Self-Hostable AI Stacks
 tagline: OpenAI-compatible inference server. Self-host once, swap in any client app.
-tags: []
+tags:
+- on-device
+- self-hosted
+- open source
+- free
 list: private-ai
 added: '2026-04-30'
 category_order: 1

@@ -4,7 +4,10 @@ url: https://ollama.com
 category: on-device-ai
 category_label: On-Device AI
 tagline: Local LLM runtime. Single binary, no account, no telemetry by default.
-tags: []
+tags:
+- on-device
+- open source
+- free
 list: private-ai
 added: '2026-04-30'
 category_order: 0

@@ -48,85 +48,80 @@ when in doubt.
 
 ## Contents
 
-- [On-Device AI](#on-device-ai)
-- [Self-Hostable AI Stacks](#self-hostable-ai-stacks)
-- [Open-Weights Models You Can Audit](#open-weights-models-you-can-audit)
-- [Privacy Auditing Tools](#privacy-auditing-tools)
+- [On-Device AI](#on-device-ai) (4)
+- [Self-Hostable AI Stacks](#self-hostable-ai-stacks) (8)
+- [Open-Weights Models You Can Audit](#open-weights-models-you-can-audit) (7)
+- [Privacy Auditing Tools](#privacy-auditing-tools) (5)
+
+<!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
 
 ## On-Device AI
 
-The strongest privacy guarantee: nothing leaves the machine. See
-[awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai) for
-the full catalog. Highlights here:
+The strongest privacy guarantee: nothing leaves the machine. See [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai) for the full catalog — highlights here.
 
-- **[Brethof Voice Pro](https://brethof.com)** — 🏠 🔒 🆓💰
-  Offline voice-to-text. Audio, transcripts, and personal training data
-  never leave your machine. 30 transcription languages, 38 for offline translation. *Disclosure: maintained by us.*
-- **[Ollama](https://ollama.com)** — 🏠 🔓 🆓
-  Local LLM runtime. Single binary, no account, no telemetry by default.
-- **[LM Studio](https://lmstudio.ai)** — 🏠 🔒 🆓
-  Polished desktop app for local models. Free for personal + commercial.
-- **[GPT4All](https://www.nomic.ai/gpt4all)** — 🏠 🔓 🆓
+- **[Brethof Voice Pro](https://brethof.com)** — 🏠 🔒 🆓 💰  
+  Offline voice-to-text. Audio, transcripts, and personal training data never leave your machine. 30 transcription languages, 38 for offline translation. *Disclosure: maintained by us.*
+- **[GPT4All](https://www.nomic.ai/gpt4all)** — 🏠 🔓 🆓  
   Privacy-first desktop chat with curated quantised models.
+- **[LM Studio](https://lmstudio.ai)** — 🏠 🔒 🆓  
+  Polished desktop app for local models. Free for personal + commercial.
+- **[Ollama](https://ollama.com)** — 🏠 🔓 🆓  
+  Local LLM runtime. Single binary, no account, no telemetry by default.
 
 ## Self-Hostable AI Stacks
 
 Run the whole pipeline on your own infrastructure.
 
-- **[Open WebUI](https://openwebui.com)** — 🏗️ 🔓 🆓
-  Self-hosted chat UI for local + remote LLMs. Pair with Ollama or
-  any OpenAI-compatible backend.
-- **[LibreChat](https://www.librechat.ai)** — 🏗️ 🔓 🆓
-  Multi-model chat platform. Self-host with full audit logging if you
-  want it, none if you don't.
-- **[Anything LLM](https://anythingllm.com)** — 🏗️🏠 🔓 🆓
+- **[Anything LLM](https://anythingllm.com)** — 🏠 🏗️ 🔓 🆓  
   Self-hosted RAG + chat. Workspace per project, all data on your disk.
-- **[LocalAI](https://localai.io)** — 🏗️🏠 🔓 🆓
-  OpenAI-compatible inference server. Self-host once, swap in any
-  client app.
-- **[vLLM](https://docs.vllm.ai)** — 🏗️ 🔓 🆓
-  High-throughput LLM serving. Self-host the same engine the big labs
-  use — no per-token middleman.
-- **[OpenLLM](https://github.com/bentoml/OpenLLM)** — 🏗️ 🔓 🆓
-  Run any open-source LLM as a production-grade endpoint on your
-  Kubernetes / Docker.
-- **[Verba](https://github.com/weaviate/verba)** — 🏗️ 🔓 🆓
+- **[LibreChat](https://www.librechat.ai)** — 🏗️ 🔓 🆓  
+  Multi-model chat platform. Self-host with full audit logging if you want it, none if you don't.
+- **[LocalAI](https://localai.io)** — 🏠 🏗️ 🔓 🆓  
+  OpenAI-compatible inference server. Self-host once, swap in any client app.
+- **[Onyx (formerly Danswer)](https://github.com/danswer-ai/danswer)** — 🏗️ 🔓 🆓  
+  Open-source enterprise search + chat over your team's docs. SSO, audit, all on-prem.
+- **[Open WebUI](https://openwebui.com)** — 🏗️ 🔓 🆓  
+  Self-hosted chat UI for local + remote LLMs. Pair with Ollama or any OpenAI-compatible backend.
+- **[OpenLLM](https://github.com/bentoml/OpenLLM)** — 🏗️ 🔓 🆓  
+  Run any open-source LLM as a production-grade endpoint on your Kubernetes / Docker.
+- **[Verba](https://github.com/weaviate/verba)** — 🏗️ 🔓 🆓  
   Self-hosted RAG over your documents. By the Weaviate team.
-- **[Onyx (formerly Danswer)](https://github.com/danswer-ai/danswer)** — 🏗️ 🔓 🆓
-  Open-source enterprise search + chat over your team's docs. SSO,
-  audit, all on-prem.
+- **[vLLM](https://docs.vllm.ai)** — 🏗️ 🔓 🆓  
+  High-throughput LLM serving. Self-host the same engine the big labs use — no per-token middleman.
 
 ## Open-Weights Models You Can Audit
 
-Closed weights = closed privacy story. Public weights let you read
-what the model is, run it offline, and verify there's no hidden
-phone-home in the inference path.
+Closed weights = closed privacy story. Public weights let you read what the model is, run it offline, and verify there's no hidden phone-home in the inference path.
 
-- **[Llama 4](https://www.llama.com)** — Meta's open-weights family.
-- **[Qwen 3.5 / 3.6](https://qwenlm.github.io)** — Alibaba's strongly-multilingual family.
-- **[Mistral / Mixtral](https://mistral.ai)** — Permissive licensing, Apache 2.0 weights for older + flagship variants.
-- **[DeepSeek V4](https://www.deepseek.com)** — Open-weights frontier reasoning model.
-- **[Gemma](https://ai.google.dev/gemma)** — Google's open-weights family.
-- **[Qwen3-ASR](https://github.com/QwenLM/Qwen3-ASR)** — Multilingual ASR model. Powers Brethof Voice Pro.
-- **[Whisper](https://github.com/openai/whisper)** — OpenAI's open-weights ASR.
+- **[DeepSeek V4](https://www.deepseek.com)**  
+  Open-weights frontier reasoning model.
+- **[Gemma](https://ai.google.dev/gemma)**  
+  Google's open-weights family.
+- **[Llama 4](https://www.llama.com)**  
+  Meta's open-weights family.
+- **[Mistral / Mixtral](https://mistral.ai)**  
+  Permissive licensing, Apache 2.0 weights for older + flagship variants.
+- **[Qwen 3.5 / 3.6](https://qwenlm.github.io)**  
+  Alibaba's strongly-multilingual family.
+- **[Qwen3-ASR](https://github.com/QwenLM/Qwen3-ASR)**  
+  Multilingual ASR model. Powers Brethof Voice Pro.
+- **[Whisper](https://github.com/openai/whisper)**  
+  OpenAI's open-weights ASR.
 
 ## Privacy Auditing Tools
 
 Verify the claims of vendors you have to use.
 
-- **[mitmproxy](https://mitmproxy.org)** — 🔓 🆓
-  Intercept-and-inspect HTTP/S traffic. See what an "offline" tool
-  actually sends home.
-- **[OpenSnitch](https://github.com/evilsocket/opensnitch)** — 🐧 🔓 🆓
-  Application-level firewall for Linux. Confirm a desktop AI tool
-  isn't talking to anyone.
-- **[Little Snitch](https://www.obdev.at/products/littlesnitch/)** — 🍎 🔒 💰
-  macOS equivalent. The de-facto standard for spotting telemetry.
-- **[Wireshark](https://www.wireshark.org)** — 🔓 🆓
-  Packet capture and analysis. Last-resort proof of what crosses the
-  network.
-- **[Exodus Privacy](https://exodus-privacy.eu.org)** — 🔓 🆓 🇪🇺
+- **[Exodus Privacy](https://exodus-privacy.eu.org)** — 🔓 🆓 🇪🇺  
   Static analysis of Android apps' tracker libraries.
+- **[Little Snitch](https://www.obdev.at/products/littlesnitch/)** — 🔒 💰 🍎  
+  macOS equivalent. The de-facto standard for spotting telemetry.
+- **[mitmproxy](https://mitmproxy.org)** — 🔓 🆓  
+  Intercept-and-inspect HTTP/S traffic. See what an "offline" tool actually sends home.
+- **[OpenSnitch](https://github.com/evilsocket/opensnitch)** — 🔓 🆓 🐧  
+  Application-level firewall for Linux. Confirm a desktop AI tool isn't talking to anyone.
+- **[Wireshark](https://www.wireshark.org)** — 🔓 🆓  
+  Packet capture and analysis. Last-resort proof of what crosses the network.
 
 ## Related work
 
@@ -134,14 +129,16 @@ Verify the claims of vendors you have to use.
 - **[awesome-ai-mine](https://github.com/BrethofAI/awesome-ai-mine)** — Vendor ToS / license analysis. Receipts for the privacy claims here.
 - **[awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt)** — Tool discovery for AI agents.
 - **[awesome-linux-for-ai](https://github.com/BrethofAI/awesome-linux-for-ai)** — Linux distros for the self-hosted privacy-respecting AI stack.
-- **[awesome-mcp-servers](https://github.com/BrethofAI/awesome-mcp-servers)** — MCP servers; permission-tag column there matches the privacy filter here.
+- **[awesome-mcp-servers](https://github.com/BrethofAI/awesome-mcp-servers)** — MCP servers; the permission-tag column there matches the privacy filter here.
 - **[anti-dev-tier-list](https://github.com/BrethofAI/anti-dev-tier-list)** — The privacy-violating practices we recommend avoiding.
 
 ## Contributing
 
 Open an issue with the tool, the privacy architecture (on-device,
-self-hosted, encrypted, etc.), and the verifiable evidence — repo
-URL, ToS clause, whitepaper. Marketing copy is not evidence.
+self-hosted, encrypted, etc.), and the verifiable evidence — repo URL,
+ToS clause, whitepaper. Marketing copy is not evidence. Entries live as
+one YAML file each under `entries/`; this README is generated from them,
+so edit the YAML, not the list above.
 
 ## License
 

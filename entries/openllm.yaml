@@ -5,7 +5,10 @@ category: self-hostable-ai-stacks
 category_label: Self-Hostable AI Stacks
 tagline: Run any open-source LLM as a production-grade endpoint on your Kubernetes
   / Docker.
-tags: []
+tags:
+- self-hosted
+- open source
+- free
 list: private-ai
 added: '2026-04-30'
 category_order: 1

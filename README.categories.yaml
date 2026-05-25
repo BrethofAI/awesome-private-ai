@@ -1,0 +1,17 @@
+# Per-category intro paragraphs, keyed by category slug (slugified label).
+
+on-device-ai: >
+  The strongest privacy guarantee: nothing leaves the machine. See
+  [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai) for the
+  full catalog — highlights here.
+
+self-hostable-ai-stacks: >
+  Run the whole pipeline on your own infrastructure.
+
+open-weights-models-you-can-audit: >
+  Closed weights = closed privacy story. Public weights let you read what the
+  model is, run it offline, and verify there's no hidden phone-home in the
+  inference path.
+
+privacy-auditing-tools: >
+  Verify the claims of vendors you have to use.

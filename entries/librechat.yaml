@@ -5,7 +5,10 @@ category: self-hostable-ai-stacks
 category_label: Self-Hostable AI Stacks
 tagline: Multi-model chat platform. Self-host with full audit logging if you want
   it, none if you don't.
-tags: []
+tags:
+- self-hosted
+- open source
+- free
 list: private-ai
 added: '2026-04-30'
 category_order: 1

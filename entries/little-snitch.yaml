@@ -4,7 +4,10 @@ url: https://www.obdev.at/products/littlesnitch/
 category: privacy-auditing-tools
 category_label: Privacy Auditing Tools
 tagline: macOS equivalent. The de-facto standard for spotting telemetry.
-tags: []
+tags:
+- closed source
+- paid
+- macOS
 list: private-ai
 added: '2026-04-30'
 category_order: 3

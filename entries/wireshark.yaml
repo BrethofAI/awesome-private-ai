@@ -4,7 +4,9 @@ url: https://www.wireshark.org
 category: privacy-auditing-tools
 category_label: Privacy Auditing Tools
 tagline: Packet capture and analysis. Last-resort proof of what crosses the network.
-tags: []
+tags:
+- open source
+- free
 list: private-ai
 added: '2026-04-30'
 category_order: 3

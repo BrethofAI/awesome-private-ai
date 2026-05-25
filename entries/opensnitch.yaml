@@ -5,7 +5,10 @@ category: privacy-auditing-tools
 category_label: Privacy Auditing Tools
 tagline: Application-level firewall for Linux. Confirm a desktop AI tool isn't talking
   to anyone.
-tags: []
+tags:
+- open source
+- free
+- Linux
 list: private-ai
 added: '2026-04-30'
 category_order: 3

@@ -5,7 +5,10 @@ category: self-hostable-ai-stacks
 category_label: Self-Hostable AI Stacks
 tagline: Self-hosted chat UI for local + remote LLMs. Pair with Ollama or any OpenAI-compatible
   backend.
-tags: []
+tags:
+- self-hosted
+- open source
+- free
 list: private-ai
 added: '2026-04-30'
 category_order: 1
