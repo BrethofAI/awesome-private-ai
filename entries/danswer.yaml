@@ -1,0 +1,11 @@
+name: Danswer
+slug: danswer
+url: https://github.com/danswer-ai/danswer
+category: self-hostable-ai-stacks
+category_label: Self-Hostable AI Stacks
+tagline: Open-source enterprise search + chat over your team's docs. SSO, audit, all
+  on-prem.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 1

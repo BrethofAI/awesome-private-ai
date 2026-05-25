@@ -1,0 +1,10 @@
+name: TensorFlow Privacy
+slug: tensorflow-privacy
+url: https://github.com/tensorflow/privacy
+category: differential-privacy-synthetic-data
+category_label: Differential Privacy & Synthetic Data
+tagline: Reference DP-SGD trainer for TensorFlow / Keras.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 7

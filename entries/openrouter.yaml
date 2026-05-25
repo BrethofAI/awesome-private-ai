@@ -1,0 +1,11 @@
+name: OpenRouter
+slug: openrouter
+url: https://openrouter.ai
+category: zero-retention-cloud-llms
+category_label: Zero-Retention Cloud LLMs
+tagline: Aggregator routing to multiple providers. Per-route privacy is the underlying
+  provider's; some routes mark "no logging" explicitly.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 2

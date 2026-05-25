@@ -1,0 +1,10 @@
+name: SmartNoise
+slug: smartnoise
+url: https://smartnoise.org
+category: differential-privacy-synthetic-data
+category_label: Differential Privacy & Synthetic Data
+tagline: OpenDP project's tools for differentially-private analytics.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 7

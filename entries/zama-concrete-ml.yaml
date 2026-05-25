@@ -1,0 +1,11 @@
+name: Zama / Concrete ML
+slug: zama-concrete-ml
+url: https://github.com/zama-ai/concrete-ml
+category: encrypted-confidential-inference
+category_label: Encrypted / Confidential Inference
+tagline: Fully Homomorphic Encryption (FHE) library for ML. Run inference on encrypted
+  data — slow, but cryptographically private.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 3

@@ -1,0 +1,10 @@
+name: Gretel
+slug: gretel
+url: https://gretel.ai
+category: differential-privacy-synthetic-data
+category_label: Differential Privacy & Synthetic Data
+tagline: Synthetic data platform with differential-privacy guarantees.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 7

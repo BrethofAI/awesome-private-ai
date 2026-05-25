@@ -1,0 +1,11 @@
+name: Apple Private Compute
+slug: apple-private-compute
+url: https://security.apple.com/blog/private-cloud-compute/
+category: encrypted-confidential-inference
+category_label: Encrypted / Confidential Inference
+tagline: Apple's attested-enclave fallback for Apple Intelligence. Public binary,
+  third-party-verifiable.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 3

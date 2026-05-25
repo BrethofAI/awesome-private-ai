@@ -1,0 +1,11 @@
+name: vLLM
+slug: vllm
+url: https://docs.vllm.ai
+category: self-hostable-ai-stacks
+category_label: Self-Hostable AI Stacks
+tagline: High-throughput LLM serving. Self-host the same engine the big labs use —
+  no per-token middleman.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 1

@@ -1,0 +1,11 @@
+name: OpenWebUI on Tor
+slug: openwebui-on-tor
+url: https://openwebui.com
+category: anonymous-ai-access
+category_label: Anonymous AI Access
+tagline: Self-host Open WebUI on a Tor onion service for fully-anonymous remote access
+  to your LLM.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 8

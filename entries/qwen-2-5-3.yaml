@@ -1,0 +1,10 @@
+name: Qwen 2.5 / 3
+slug: qwen-2-5-3
+url: https://qwenlm.github.io
+category: open-weights-models-you-can-audit
+category_label: Open-Weights Models You Can Audit
+tagline: ''
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 9

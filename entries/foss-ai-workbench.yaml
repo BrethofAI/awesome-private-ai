@@ -1,0 +1,10 @@
+name: FOSS-AI Workbench
+slug: foss-ai-workbench
+url: https://github.com/foss-ai/workbench
+category: self-hostable-ai-stacks
+category_label: Self-Hostable AI Stacks
+tagline: All-in-one self-hosted notebook for fine-tuning, evals, and inference.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 1

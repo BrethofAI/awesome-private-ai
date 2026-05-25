@@ -1,0 +1,10 @@
+name: Anything LLM
+slug: anything-llm
+url: https://anythingllm.com
+category: self-hostable-ai-stacks
+category_label: Self-Hostable AI Stacks
+tagline: Self-hosted RAG + chat. Workspace per project, all data on your disk.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 1

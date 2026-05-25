@@ -1,0 +1,12 @@
+name: Anthropic Claude
+slug: anthropic-claude
+url: https://www.anthropic.com/legal/commercial-terms
+category: zero-retention-cloud-llms
+category_label: Zero-Retention Cloud LLMs
+tagline: 'Commercial API: zero retention by default, no training on customer data
+  per the Commercial Terms. Free tier and Claude.ai consumer product follow different
+  rules — read the consumer agreement.'
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 2

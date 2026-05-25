@@ -1,0 +1,11 @@
+name: Flower
+slug: flower
+url: https://flower.ai
+category: federated-decentralised-ai
+category_label: Federated & Decentralised AI
+tagline: Friendly, mature federated-learning framework. Train across mobile, edge,
+  and cloud nodes without pooling raw data.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 6

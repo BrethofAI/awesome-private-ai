@@ -1,0 +1,11 @@
+name: Open WebUI
+slug: open-webui
+url: https://openwebui.com
+category: self-hostable-ai-stacks
+category_label: Self-Hostable AI Stacks
+tagline: Self-hosted chat UI for local + remote LLMs. Pair with Ollama or any OpenAI-compatible
+  backend.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 1

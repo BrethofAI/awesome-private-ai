@@ -1,0 +1,11 @@
+name: Mullvad Browser
+slug: mullvad-browser
+url: https://mullvad.net/en/browser
+category: privacy-first-browsers-with-ai
+category_label: Privacy-First Browsers with AI
+tagline: Tor-Browser-derived, no AI built in — pair with a self-hosted local model
+  for an anonymous AI workflow.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 4

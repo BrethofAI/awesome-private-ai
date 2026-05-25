@@ -1,0 +1,11 @@
+name: Brave Leo
+slug: brave-leo
+url: https://brave.com/leo/
+category: zero-retention-cloud-llms
+category_label: Zero-Retention Cloud LLMs
+tagline: Anonymized, no-account chat in the Brave browser. Reverse-proxy architecture
+  means the model provider never sees your IP or identity.
+tags: []
+list: private-ai
+added: '2026-04-30'
+category_order: 2
