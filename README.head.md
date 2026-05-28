@@ -4,7 +4,7 @@
 
 Maintained by [Brethof AI](https://brethof.com). Companion to
 [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai),
-[awesome-ai-mine](https://github.com/BrethofAI/awesome-ai-mine), and
+[awesome-ai-minefield](https://github.com/BrethofAI/awesome-ai-minefield), and
 [awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt).
 
 ## Why this list exists — and how it differs from awesome-local-ai
@@ -35,7 +35,7 @@ contractual/cloud tier for exactly that reason: no receipt, no entry.
 
 We list both **architectures** and **vendors / tools** that implement
 them. Be skeptical of any vendor's claim — verify against their
-[awesome-ai-mine](https://github.com/BrethofAI/awesome-ai-mine) entry
+[awesome-ai-minefield](https://github.com/BrethofAI/awesome-ai-minefield) entry
 when in doubt.
 
 ## Legend

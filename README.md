@@ -4,7 +4,7 @@
 
 Maintained by [Brethof AI](https://brethof.com). Companion to
 [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai),
-[awesome-ai-mine](https://github.com/BrethofAI/awesome-ai-mine), and
+[awesome-ai-minefield](https://github.com/BrethofAI/awesome-ai-minefield), and
 [awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt).
 
 ## Why this list exists — and how it differs from awesome-local-ai
@@ -35,7 +35,7 @@ contractual/cloud tier for exactly that reason: no receipt, no entry.
 
 We list both **architectures** and **vendors / tools** that implement
 them. Be skeptical of any vendor's claim — verify against their
-[awesome-ai-mine](https://github.com/BrethofAI/awesome-ai-mine) entry
+[awesome-ai-minefield](https://github.com/BrethofAI/awesome-ai-minefield) entry
 when in doubt.
 
 ## Legend
@@ -126,7 +126,7 @@ Verify the claims of vendors you have to use.
 ## Related work
 
 - **[awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai)** — Stricter "100% on-device" filter.
-- **[awesome-ai-mine](https://github.com/BrethofAI/awesome-ai-mine)** — Vendor ToS / license analysis. Receipts for the privacy claims here.
+- **[awesome-ai-minefield](https://github.com/BrethofAI/awesome-ai-minefield)** — Vendor ToS / license analysis. Receipts for the privacy claims here.
 - **[awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt)** — Tool discovery for AI agents.
 - **[awesome-linux-for-ai](https://github.com/BrethofAI/awesome-linux-for-ai)** — Linux distros for the self-hosted privacy-respecting AI stack.
 - **[awesome-mcp-servers](https://github.com/BrethofAI/awesome-mcp-servers)** — MCP servers; the permission-tag column there matches the privacy filter here.
