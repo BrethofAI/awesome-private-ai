@@ -2,7 +2,7 @@
 
 > AI tools that treat your data as yours. **Privacy by architecture, not by policy page.**
 
-Maintained by [Brethof AI](https://brethof.com). Companion to
+Maintained by [Brethof AI](https://brethof.ai). Companion to
 [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai),
 [awesome-ai-minefield](https://github.com/BrethofAI/awesome-ai-minefield), and
 [awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt).

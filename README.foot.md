@@ -21,5 +21,5 @@ so edit the YAML, not the list above.
 
 ---
 
-Maintained by **[Brethof AI](https://brethof.com)** — AI tools built for
+Maintained by **[Brethof AI](https://brethof.ai)** — AI tools built for
 people who take their data seriously.

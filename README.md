@@ -2,7 +2,7 @@
 
 > AI tools that treat your data as yours. **Privacy by architecture, not by policy page.**
 
-Maintained by [Brethof AI](https://brethof.com). Companion to
+Maintained by [Brethof AI](https://brethof.ai). Companion to
 [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai),
 [awesome-ai-minefield](https://github.com/BrethofAI/awesome-ai-minefield), and
 [awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt).
@@ -59,7 +59,7 @@ when in doubt.
 
 The strongest privacy guarantee: nothing leaves the machine. See [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai) for the full catalog — highlights here.
 
-- **[Brethof Voice Pro](https://brethof.com)** — 🏠 🔒 🆓 💰  
+- **[Brethof Voice Pro](https://brethof.ai/voice/)** — 🏠 🔒 🆓 💰  
   Offline voice-to-text. Audio, transcripts, and personal training data never leave your machine. 30 transcription languages, 38 for offline translation. *Disclosure: maintained by us.*
 - **[GPT4All](https://www.nomic.ai/gpt4all)** — 🏠 🔓 🆓  
   Privacy-first desktop chat with curated quantised models.
@@ -146,5 +146,5 @@ so edit the YAML, not the list above.
 
 ---
 
-Maintained by **[Brethof AI](https://brethof.com)** — AI tools built for
+Maintained by **[Brethof AI](https://brethof.ai)** — AI tools built for
 people who take their data seriously.
