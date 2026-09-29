@@ -3,13 +3,14 @@ slug: brethof-voice-pro
 url: https://brethof.ai/voice/
 category: on-device-ai
 category_label: On-Device AI
-tagline: 'Offline voice-to-text. Audio, transcripts, and personal training data never
-  leave your machine. 30 transcription languages, 38 for offline translation. *Disclosure:
-  maintained by us.*'
+tagline: 'Voice-to-text, translation and subtitles that never leave your machine: audio, transcripts,
+  translations and personal training data stay local. 30 transcription languages (+22 Chinese
+  dialects), offline translation across 38, SRT/VTT subtitles, a voice keyboard, an MCP server
+  for agents. The network sees a licence key and a version string at launch, and nothing once
+  the update check is off and the models are on disk. *Disclosure: maintained by us.*'
 tags:
 - on-device
 - closed source
-- free
 - paid
 list: private-ai
 added: '2026-04-30'

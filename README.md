@@ -59,8 +59,8 @@ when in doubt.
 
 The strongest privacy guarantee: nothing leaves the machine. See [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai) for the full catalog — highlights here.
 
-- **[Brethof Voice Pro](https://brethof.ai/voice/)** — 🏠 🔒 🆓 💰  
-  Offline voice-to-text. Audio, transcripts, and personal training data never leave your machine. 30 transcription languages, 38 for offline translation. *Disclosure: maintained by us.*
+- **[Brethof Voice Pro](https://brethof.ai/voice/)** — 🏠 🔒 💰  
+  Voice-to-text, translation and subtitles that never leave your machine: audio, transcripts, translations and personal training data stay local. 30 transcription languages (+22 Chinese dialects), offline translation across 38, SRT/VTT subtitles, a voice keyboard, an MCP server for agents. The network sees a licence key and a version string at launch, and nothing once the update check is off and the models are on disk. *Disclosure: maintained by us.*
 - **[GPT4All](https://www.nomic.ai/gpt4all)** — 🏠 🔓 🆓  
   Privacy-first desktop chat with curated quantised models.
 - **[LM Studio](https://lmstudio.ai)** — 🏠 🔒 🆓  
@@ -104,7 +104,7 @@ Closed weights = closed privacy story. Public weights let you read what the mode
 - **[Qwen 3.5 / 3.6](https://qwenlm.github.io)**  
   Alibaba's strongly-multilingual family.
 - **[Qwen3-ASR](https://github.com/QwenLM/Qwen3-ASR)**  
-  Multilingual ASR model. Powers Brethof Voice Pro.
+  Multilingual ASR model (0.6B / 1.7B, open weights). Powers transcription in Brethof Voice Pro.
 - **[Whisper](https://github.com/openai/whisper)**  
   OpenAI's open-weights ASR.
 
