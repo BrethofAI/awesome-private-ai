@@ -103,7 +103,7 @@ Closed weights = closed privacy story. Public weights let you read what the mode
 - **[Gemma 4](https://deepmind.google/models/gemma/)**  
   Google's open-weights family; Gemma 4 (March 2026) is Apache-2.0 and not gated.
 - **[GLM-5.3](https://huggingface.co/zai-org/GLM-5.3)**  
-  Zhipu (Z.AI) open weights, August 2026. GLM-5.3-Flash is plain MIT; the full GLM-5.3 has its own licence whose main condition applies only to companies above $10B revenue (a Z.AI security review).
+  Zhipu (Z.AI) open weights, August 2026. GLM-5.3-Flash is plain MIT; the full GLM-5.3 is MIT-style with one condition — a Z.AI security review, and only for model-as-a-service businesses above $10B revenue. Self-hosting is unrestricted.
 - **[Kimi K3](https://huggingface.co/moonshotai/Kimi-K3)**  
   Moonshot AI's open-weights model (June 2026) under the Kimi K3 License, a modified MIT: model-as-a-service businesses above $20M revenue need a separate agreement, and very large products must display "Kimi K3".
 - **[Mistral Large 3 / Small 4](https://huggingface.co/mistralai)**  

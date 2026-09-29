@@ -4,8 +4,8 @@ url: https://huggingface.co/zai-org/GLM-5.3
 category: open-weights-models-you-can-audit
 category_label: Open-Weights Models You Can Audit
 tagline: Zhipu (Z.AI) open weights, August 2026. GLM-5.3-Flash is plain MIT; the full GLM-5.3
-  has its own licence whose main condition applies only to companies above $10B revenue (a
-  Z.AI security review).
+  is MIT-style with one condition — a Z.AI security review, and only for model-as-a-service
+  businesses above $10B revenue. Self-hosting is unrestricted.
 tags: []
 list: private-ai
 added: '2026-09-29'
