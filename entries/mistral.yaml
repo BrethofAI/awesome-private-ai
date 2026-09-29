@@ -1,0 +1,11 @@
+name: Mistral Large 3 / Small 4
+slug: mistral
+url: https://huggingface.co/mistralai
+category: open-weights-models-you-can-audit
+category_label: Open-Weights Models You Can Audit
+tagline: 'Mistral''s Apache-2.0 open weights: Large 3 (675B) and Small 4 (119B). Note Mistral
+  Medium 3.5 is under a modified MIT licence that bars companies with over $20M monthly revenue.'
+tags: []
+list: private-ai
+added: '2026-09-29'
+category_order: 2

@@ -3,7 +3,9 @@ slug: anything-llm
 url: https://anythingllm.com
 category: self-hostable-ai-stacks
 category_label: Self-Hostable AI Stacks
-tagline: Self-hosted RAG + chat. Workspace per project, all data on your disk.
+tagline: Self-hosted workspace with built-in RAG over your documents, MIT. Anonymous telemetry
+  (PostHog) is ON by default — turn it off with DISABLE_TELEMETRY=true or under Privacy in
+  the app.
 tags:
 - on-device
 - self-hosted

@@ -15,3 +15,9 @@ open-weights-models-you-can-audit: >
 
 privacy-auditing-tools: >
   Verify the claims of vendors you have to use.
+
+verifiable-confidential-cloud: >
+  Hosted, but you do not have to take their word for it: the model runs in a
+  hardware enclave, and your client checks a signed measurement of the exact
+  code running before it sends anything. Cryptographic isolation, with a
+  receipt — not a no-log promise.

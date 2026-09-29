@@ -1,0 +1,11 @@
+name: Muse Glimmer (Meta)
+slug: muse-glimmer
+url: https://huggingface.co/meta-models/Muse-Glimmer-30B
+category: open-weights-models-you-can-audit
+category_label: Open-Weights Models You Can Audit
+tagline: Meta's current open-weights line (30B, August 2026), Apache-2.0 and not gated — unlike
+  Llama 4, whose custom licence needs manual download approval.
+tags: []
+list: private-ai
+added: '2026-09-29'
+category_order: 2

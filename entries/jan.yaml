@@ -1,0 +1,14 @@
+name: Jan
+slug: jan
+url: https://jan.ai
+category: on-device-ai
+category_label: On-Device AI
+tagline: Open-source (Apache-2.0) desktop chat that works fully offline; conversations and
+  logs stay on your computer unless you choose a remote API.
+tags:
+- on-device
+- open source
+- free
+list: private-ai
+added: '2026-09-29'
+category_order: 0

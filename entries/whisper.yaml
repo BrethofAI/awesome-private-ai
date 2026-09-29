@@ -3,7 +3,8 @@ slug: whisper
 url: https://github.com/openai/whisper
 category: open-weights-models-you-can-audit
 category_label: Open-Weights Models You Can Audit
-tagline: OpenAI's open-weights ASR.
+tagline: OpenAI's open-weights speech recognition, MIT. No model newer than large-v3-turbo
+  (October 2024), but the repo is maintained.
 tags: []
 list: private-ai
 added: '2026-04-30'

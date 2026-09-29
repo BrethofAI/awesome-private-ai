@@ -3,11 +3,13 @@ slug: little-snitch
 url: https://www.obdev.at/products/littlesnitch/
 category: privacy-auditing-tools
 category_label: Privacy Auditing Tools
-tagline: macOS equivalent. The de-facto standard for spotting telemetry.
+tagline: The de-facto standard for spotting what an app sends home. macOS, and since 2026
+  a Linux edition (eBPF component and web UI GPL-2.0, daemon free but proprietary).
 tags:
 - closed source
 - paid
 - macOS
+- Linux
 list: private-ai
 added: '2026-04-30'
 category_order: 3

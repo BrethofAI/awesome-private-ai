@@ -1,0 +1,12 @@
+name: Qwen 3.8
+slug: qwen-3-8
+url: https://huggingface.co/Qwen
+category: open-weights-models-you-can-audit
+category_label: Open-Weights Models You Can Audit
+tagline: 'Alibaba''s current open-weights family (August 2026). Mixed licences: Qwen3.8-27B
+  is Apache-2.0, but Flash-Next and the flagship carry custom licences restricting large or
+  model-as-a-service businesses — check the model card.'
+tags: []
+list: private-ai
+added: '2026-09-29'
+category_order: 2

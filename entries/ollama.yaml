@@ -3,7 +3,9 @@ slug: ollama
 url: https://ollama.com
 category: on-device-ai
 category_label: On-Device AI
-tagline: Local LLM runtime. Single binary, no account, no telemetry by default.
+tagline: 'Local LLM runtime, MIT, no account needed for local models. Its cloud features (cloud
+  models, web search) are on by default — for local-only, set OLLAMA_NO_CLOUD=1 or "disable_ollama_cloud":
+  true.'
 tags:
 - on-device
 - open source

@@ -3,8 +3,9 @@ slug: vllm
 url: https://docs.vllm.ai
 category: self-hostable-ai-stacks
 category_label: Self-Hostable AI Stacks
-tagline: High-throughput LLM serving. Self-host the same engine the big labs use —
-  no per-token middleman.
+tagline: High-throughput LLM serving you run yourself — no per-token middleman. Sends anonymous
+  usage stats (hardware, model architecture, config) by default; opt out with VLLM_NO_USAGE_STATS=1
+  or DO_NOT_TRACK=1.
 tags:
 - self-hosted
 - open source

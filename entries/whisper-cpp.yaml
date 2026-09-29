@@ -1,0 +1,13 @@
+name: whisper.cpp
+slug: whisper-cpp
+url: https://github.com/ggml-org/whisper.cpp
+category: on-device-ai
+category_label: On-Device AI
+tagline: Whisper speech recognition fully offline on-device, including phones. MIT.
+tags:
+- on-device
+- open source
+- free
+list: private-ai
+added: '2026-09-29'
+category_order: 0

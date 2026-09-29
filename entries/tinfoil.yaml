@@ -1,0 +1,15 @@
+name: Tinfoil
+slug: tinfoil
+url: https://tinfoil.sh
+category: verifiable-confidential-cloud
+category_label: Verifiable Confidential Cloud
+tagline: 'Confidential-computing inference for open models: the client verifies the enclave''s
+  attestation against open-source code in transparency logs, then encrypts end-to-end to it
+  — isolated from the host operator. Hosted.'
+tags:
+- hosted
+- open source
+- paid
+list: private-ai
+added: '2026-09-29'
+category_order: 4

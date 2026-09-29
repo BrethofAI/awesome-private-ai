@@ -1,0 +1,15 @@
+name: Maple (OpenSecret)
+slug: maple
+url: https://github.com/MaplePrivacyLabs/Maple
+category: verifiable-confidential-cloud
+category_label: Verifiable Confidential Cloud
+tagline: Private AI chat whose backend runs in AWS Nitro Enclaves; the client checks signed
+  measurements of the running code before sending anything. Hosted, and needs an account.
+tags:
+- hosted
+- open source
+- free
+- paid
+list: private-ai
+added: '2026-09-29'
+category_order: 4

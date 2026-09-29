@@ -1,9 +1,9 @@
-name: Gemma
+name: Gemma 4
 slug: gemma
-url: https://ai.google.dev/gemma
+url: https://deepmind.google/models/gemma/
 category: open-weights-models-you-can-audit
 category_label: Open-Weights Models You Can Audit
-tagline: Google's open-weights family.
+tagline: Google's open-weights family; Gemma 4 (March 2026) is Apache-2.0 and not gated.
 tags: []
 list: private-ai
 added: '2026-04-30'

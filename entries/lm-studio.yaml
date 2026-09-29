@@ -3,7 +3,10 @@ slug: lm-studio
 url: https://lmstudio.ai
 category: on-device-ai
 category_label: On-Device AI
-tagline: Polished desktop app for local models. Free for personal + commercial.
+tagline: Desktop app for running local models; chats and documents stay on your machine when
+  you use local models. Closed source (only the lms CLI is MIT). It still contacts LM Studio
+  for update checks and model search, and now sells optional paid cloud tiers — the free tier
+  is local.
 tags:
 - on-device
 - closed source

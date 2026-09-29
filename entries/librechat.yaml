@@ -1,10 +1,10 @@
 name: LibreChat
 slug: librechat
-url: https://www.librechat.ai
+url: https://github.com/LibreChat-AI/LibreChat
 category: self-hostable-ai-stacks
 category_label: Self-Hostable AI Stacks
-tagline: Multi-model chat platform. Self-host with full audit logging if you want
-  it, none if you don't.
+tagline: Multi-model chat platform. Self-host with full audit logging if you want it, none
+  if you don't.
 tags:
 - self-hosted
 - open source
