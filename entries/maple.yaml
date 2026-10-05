@@ -3,8 +3,9 @@ slug: maple
 url: https://github.com/MaplePrivacyLabs/Maple
 category: level-3-cant-see-provably
 category_label: Level 3 — Can't See, Provably
-tagline: Private AI chat whose backend runs in AWS Nitro Enclaves; the client checks signed
-  measurements of the running code before sending anything. Hosted, and needs an account.
+tagline: 'Private AI chat: messages encrypted on device, decrypted only inside attested AWS
+  Nitro Enclaves, inference in GPU TEEs; the client checks signed measurements first.
+  Hosted, needs an account.'
 tags:
 - hosted
 - open source
@@ -13,3 +14,4 @@ tags:
 list: private-ai
 added: '2026-09-29'
 category_order: 2
+verified: '2026-10-05'

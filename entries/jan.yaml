@@ -3,8 +3,9 @@ slug: jan
 url: https://jan.ai
 category: level-1-on-your-device
 category_label: Level 1 — On Your Device
-tagline: Open-source (Apache-2.0) desktop chat that works fully offline; conversations and
-  logs stay on your computer unless you choose a remote API.
+tagline: 'Open-source (Apache-2.0) desktop chat that works fully offline; conversations and
+  logs stay on your computer unless you choose a remote API. It checks jan.ai/GitHub for
+  updates; usage analytics are opt-in at first launch.'
 tags:
 - on-device
 - open source
@@ -12,3 +13,4 @@ tags:
 list: private-ai
 added: '2026-09-29'
 category_order: 0
+verified: '2026-10-05'

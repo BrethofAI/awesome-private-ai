@@ -3,7 +3,8 @@ slug: localai
 url: https://localai.io
 category: level-2-on-your-server
 category_label: Level 2 — On Your Server
-tagline: OpenAI-compatible inference server. Self-host once, swap in any client app.
+tagline: 'OpenAI- and Anthropic-compatible server for text, voice, image, video and agents
+  (MIT). No telemetry; only model/backend downloads from its gallery leave the box.'
 tags:
 - on-device
 - self-hosted
@@ -12,3 +13,4 @@ tags:
 list: private-ai
 added: '2026-04-30'
 category_order: 1
+verified: '2026-10-05'

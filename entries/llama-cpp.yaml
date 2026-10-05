@@ -3,8 +3,9 @@ slug: llama-cpp
 url: https://github.com/ggml-org/llama.cpp
 category: level-1-on-your-device
 category_label: Level 1 — On Your Device
-tagline: The C/C++ inference engine most local tools build on, with an OpenAI-compatible llama-server.
-  MIT, no account, runs on your own hardware.
+tagline: 'The C/C++ inference engine most local tools build on, with an OpenAI-compatible
+  server (`llama serve` / llama-server). MIT, no account, no telemetry; the network is
+  touched only when you pull models from Hugging Face (`-hf`) or use the installer.'
 tags:
 - on-device
 - open source
@@ -12,3 +13,4 @@ tags:
 list: private-ai
 added: '2026-09-29'
 category_order: 0
+verified: '2026-10-05'

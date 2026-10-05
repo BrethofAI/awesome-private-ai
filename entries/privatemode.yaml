@@ -1,0 +1,21 @@
+name: Privatemode
+slug: privatemode
+url: https://www.privatemode.ai/
+category: level-3-cant-see-provably
+category_label: Level 3 — Can't See, Provably
+tagline: 'Confidential-computing AI API and chat from Edgeless Systems (Germany) on AMD
+  SEV-SNP / Intel TDX / NVIDIA H100-B200 confidential computing; the client-side proxy or
+  SDK verifies remote attestation before any prompt is sent. Prompts are not stored or
+  trained on; the web app keeps history in the browser. Leaves the machine: IP, timestamps,
+  API key and token usage (up to 90 days; per-key usage kept for billing). Proxy and chat
+  client MIT, core source-available for audit. EU-hosted.'
+tags:
+- hosted
+- open source
+- free
+- paid
+- EU-hosted
+list: private-ai
+added: '2026-10-05'
+category_order: 2
+verified: '2026-10-05'

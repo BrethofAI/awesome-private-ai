@@ -6,10 +6,15 @@ category_label: Level 3 — Can't See, Provably
 tagline: End-to-end encrypted photo storage whose AI search (faces, scenes) runs on your device;
   the server only ever holds ciphertext and can be self-hosted. AGPL-3.0.
 tags:
+- hosted
+- self-hosted
 - on-device
 - open source
+- audited
+- EU-hosted
 - free
 - paid
 list: private-ai
 added: '2026-09-29'
 category_order: 2
+verified: '2026-10-05'

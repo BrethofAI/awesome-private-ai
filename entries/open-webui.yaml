@@ -3,13 +3,16 @@ slug: open-webui
 url: https://openwebui.com
 category: level-2-on-your-server
 category_label: Level 2 — On Your Server
-tagline: 'Self-hosted chat UI for local + remote LLMs; pair it with Ollama or any OpenAI-compatible
-  backend. Source-available since 2025: BSD-3 plus a branding clause (deployments over 50
-  users may not remove the Open WebUI branding without permission) — its own docs say it is
-  not OSI open source. No paywalled features; telemetry off in the official image.'
+tagline: 'Self-hosted chat UI for local + remote LLMs; pair it with Ollama or any
+  OpenAI-compatible backend. Source-available since v0.6.6 (Apr 2025): BSD-3 plus a branding
+  clause (over 50 users in 30 days may not remove the branding without permission); its docs
+  say it is not OSI open source. Telemetry off in the official image, but it checks GitHub
+  for updates by default — ENABLE_VERSION_UPDATE_CHECK=false or OFFLINE_MODE=true. Core is
+  free; Terminals needs an enterprise licence.'
 tags:
 - self-hosted
 - free
 list: private-ai
 added: '2026-04-30'
 category_order: 1
+verified: '2026-10-05'

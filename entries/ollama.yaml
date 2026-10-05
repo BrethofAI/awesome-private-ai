@@ -3,9 +3,10 @@ slug: ollama
 url: https://ollama.com
 category: level-1-on-your-device
 category_label: Level 1 — On Your Device
-tagline: 'Local LLM runtime, MIT, no account needed for local models. Its cloud features (cloud
-  models, web search) are on by default — for local-only, set OLLAMA_NO_CLOUD=1 or "disable_ollama_cloud":
-  true.'
+tagline: 'Local LLM runtime, MIT, no account needed for local models. Its cloud features
+  (cloud models, web search) are on by default — for local-only, set OLLAMA_NO_CLOUD=1 or
+  "disable_ollama_cloud": true in ~/.ollama/server.json. The macOS/Windows app
+  auto-downloads updates.'
 tags:
 - on-device
 - open source
@@ -13,3 +14,4 @@ tags:
 list: private-ai
 added: '2026-04-30'
 category_order: 0
+verified: '2026-10-05'

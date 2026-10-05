@@ -1,0 +1,17 @@
+name: Immich
+slug: immich
+url: https://immich.app/
+category: level-2-on-your-server
+category_label: Level 2 — On Your Server
+tagline: 'Self-hosted photo and video library; face recognition, CLIP search and OCR run in
+  your own machine-learning container. Leaves the server by default: a new-version check,
+  map tiles from tiles.immich.cloud, and a one-time ML model download from Hugging Face —
+  all can be switched off in the config. AGPL-3.0.'
+tags:
+- self-hosted
+- open source
+- free
+list: private-ai
+added: '2026-10-05'
+category_order: 1
+verified: '2026-10-05'

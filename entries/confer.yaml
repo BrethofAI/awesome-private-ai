@@ -1,0 +1,20 @@
+name: Confer
+slug: confer
+url: https://confer.to/
+category: level-3-cant-see-provably
+category_label: Level 3 — Can't See, Provably
+tagline: 'AI chat from Signal''s founder: history encrypted with passkey-derived keys that
+  never leave your device; prompts are encrypted from your device into a confidential VM
+  whose attestation the client checks against a public transparency log first; reproducible
+  builds. Leaves the machine: product analytics to Confer''s own API (pageviews, login
+  events, timezone, user ID), and connectors (Gmail, Calendar) call Google from the client.
+  Server source published without a licence. Free tier 20 messages a day; membership
+  $34.99/month.'
+tags:
+- hosted
+- free
+- paid
+list: private-ai
+added: '2026-10-05'
+category_order: 2
+verified: '2026-10-05'

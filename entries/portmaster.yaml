@@ -1,0 +1,18 @@
+name: Portmaster
+slug: portmaster
+url: https://safing.io/
+category: privacy-auditing-tools
+category_label: Privacy Auditing Tools
+tagline: 'Application firewall that shows and blocks every connection per app — see what
+  your AI tools contact. Windows and Linux. Leaves the machine: signed updates and
+  blocklist/GeoIP data download automatically, and DNS goes to Cloudflare over DoT by
+  default (configurable). Network history and the SPN relay are paid. GPL-3.0.'
+tags:
+- open source
+- free
+- paid
+- Linux
+list: private-ai
+added: '2026-10-05'
+category_order: 5
+verified: '2026-10-05'

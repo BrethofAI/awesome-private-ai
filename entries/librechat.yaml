@@ -3,8 +3,8 @@ slug: librechat
 url: https://github.com/LibreChat-AI/LibreChat
 category: level-2-on-your-server
 category_label: Level 2 — On Your Server
-tagline: Multi-model chat platform. Self-host with full audit logging if you want it, none
-  if you don't.
+tagline: 'Multi-model chat platform (MIT), owned by ClickHouse since Nov 2025. No vendor
+  telemetry; logs stay on your server unless you point OpenTelemetry/Langfuse somewhere.'
 tags:
 - self-hosted
 - open source
@@ -12,3 +12,4 @@ tags:
 list: private-ai
 added: '2026-04-30'
 category_order: 1
+verified: '2026-10-05'

@@ -3,9 +3,12 @@ slug: deepseek-v4
 url: https://huggingface.co/deepseek-ai
 category: open-weights-models-you-can-audit
 category_label: Open-Weights Models You Can Audit
-tagline: 'Open-weights frontier reasoning models, MIT: V4-Pro and V4-Flash (April 2026) and
-  V4.1-Flash (September 2026). Run the weights locally — deepseek.com is the hosted service.'
+tagline: 'Open-weights frontier reasoning models, MIT: V4-Pro and V4-Flash (April 2026
+  preview; official releases V4-Flash-0731 and V4-Pro-0813 in July/August 2026) and
+  V4.1-Flash (September 2026). Run the weights locally — deepseek.com is the hosted
+  service.'
 tags: []
 list: private-ai
 added: '2026-04-30'
 category_order: 4
+verified: '2026-10-05'

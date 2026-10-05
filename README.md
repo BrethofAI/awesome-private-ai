@@ -61,11 +61,11 @@ when in doubt.
 ## Contents
 
 - [Level 1 — On Your Device](#level-1-—-on-your-device) (7)
-- [Level 2 — On Your Server](#level-2-—-on-your-server) (7)
-- [Level 3 — Can't See, Provably](#level-3-—-can't-see-provably) (3)
+- [Level 2 — On Your Server](#level-2-—-on-your-server) (8)
+- [Level 3 — Can't See, Provably](#level-3-—-can't-see-provably) (5)
 - [Level 4 — Processes, Never Stores](#level-4-—-processes-never-stores) (2)
 - [Open-Weights Models You Can Audit](#open-weights-models-you-can-audit) (9)
-- [Privacy Auditing Tools](#privacy-auditing-tools) (5)
+- [Privacy Auditing Tools](#privacy-auditing-tools) (6)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
 
@@ -78,13 +78,13 @@ Nothing leaves the machine — the strongest guarantee there is. The full catalo
 - **[Hyperconsciousness (hc)](https://github.com/louis030195/hyperconsciousness)** — 🆕 🏠 🔓 🆓 ❓  
   Encrypted, append-only knowledge store for agents (Rust, MIT) with scoped, expiring grants over MCP/HTTP; works with no hosted service, device sync optional. Developer alpha, no independent audit yet; installer builds auto-update from GitHub by default. Anything returned to a hosted model is visible to that model's provider.
 - **[Jan](https://jan.ai)** — 🆕 🏠 🔓 🆓  
-  Open-source (Apache-2.0) desktop chat that works fully offline; conversations and logs stay on your computer unless you choose a remote API.
+  Open-source (Apache-2.0) desktop chat that works fully offline; conversations and logs stay on your computer unless you choose a remote API. It checks jan.ai/GitHub for updates; usage analytics are opt-in at first launch.
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — 🆕 🏠 🔓 🆓  
-  The C/C++ inference engine most local tools build on, with an OpenAI-compatible llama-server. MIT, no account, runs on your own hardware.
+  The C/C++ inference engine most local tools build on, with an OpenAI-compatible server (`llama serve` / llama-server). MIT, no account, no telemetry; the network is touched only when you pull models from Hugging Face (`-hf`) or use the installer.
 - **[LM Studio](https://lmstudio.ai)** — 🏠 🔒 🆓  
-  Desktop app for running local models; chats and documents stay on your machine when you use local models. Closed source (only the lms CLI is MIT). It still contacts LM Studio for update checks and model search, and now sells optional paid cloud tiers — the free tier is local.
+  Desktop app for running local models (plus the newer Bionic agent app); chats and documents stay on your machine when you use local models, no account needed. Closed source (CLI, SDKs and MLX engine are MIT). It still sends update checks and model searches to LM Studio, and sells optional paid cloud models (Bionic+/Pro) — the free tier is local.
 - **[Ollama](https://ollama.com)** — 🏠 🔓 🆓  
-  Local LLM runtime, MIT, no account needed for local models. Its cloud features (cloud models, web search) are on by default — for local-only, set OLLAMA_NO_CLOUD=1 or "disable_ollama_cloud": true.
+  Local LLM runtime, MIT, no account needed for local models. Its cloud features (cloud models, web search) are on by default — for local-only, set OLLAMA_NO_CLOUD=1 or "disable_ollama_cloud": true in ~/.ollama/server.json. The macOS/Windows app auto-downloads updates.
 - **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** — 🆕 🏠 🔓 🆓  
   Whisper speech recognition fully offline on-device, including phones. MIT.
 
@@ -94,14 +94,16 @@ You run the whole stack on hardware you control, so the vendor never sees your d
 
 - **[Anything LLM](https://anythingllm.com)** — 🏠 🏗️ 🔓 🆓  
   Self-hosted workspace with built-in RAG over your documents, MIT. Anonymous telemetry (PostHog) is ON by default — turn it off with DISABLE_TELEMETRY=true or under Privacy in the app.
+- **[Immich](https://immich.app/)** — 🆕 🏗️ 🔓 🆓  
+  Self-hosted photo and video library; face recognition, CLIP search and OCR run in your own machine-learning container. Leaves the server by default: a new-version check, map tiles from tiles.immich.cloud, and a one-time ML model download from Hugging Face — all can be switched off in the config. AGPL-3.0.
 - **[LibreChat](https://github.com/LibreChat-AI/LibreChat)** — 🏗️ 🔓 🆓  
-  Multi-model chat platform. Self-host with full audit logging if you want it, none if you don't.
+  Multi-model chat platform (MIT), owned by ClickHouse since Nov 2025. No vendor telemetry; logs stay on your server unless you point OpenTelemetry/Langfuse somewhere.
 - **[LocalAI](https://localai.io)** — 🏠 🏗️ 🔓 🆓  
-  OpenAI-compatible inference server. Self-host once, swap in any client app.
+  OpenAI- and Anthropic-compatible server for text, voice, image, video and agents (MIT). No telemetry; only model/backend downloads from its gallery leave the box.
 - **[Open Notebook](https://github.com/lfnovo/open-notebook)** — 🆕 🏗️ 🔓 🆓  
   Self-hosted, open-source alternative to NotebookLM (MIT), with your own model backends and no cloud dependency.
 - **[Open WebUI](https://openwebui.com)** — 🏗️ 🆓  
-  Self-hosted chat UI for local + remote LLMs; pair it with Ollama or any OpenAI-compatible backend. Source-available since 2025: BSD-3 plus a branding clause (deployments over 50 users may not remove the Open WebUI branding without permission) — its own docs say it is not OSI open source. No paywalled features; telemetry off in the official image.
+  Self-hosted chat UI for local + remote LLMs; pair it with Ollama or any OpenAI-compatible backend. Source-available since v0.6.6 (Apr 2025): BSD-3 plus a branding clause (over 50 users in 30 days may not remove the branding without permission); its docs say it is not OSI open source. Telemetry off in the official image, but it checks GitHub for updates by default — ENABLE_VERSION_UPDATE_CHECK=false or OFFLINE_MODE=true. Core is free; Terminals needs an enterprise licence.
 - **[RAGFlow](https://github.com/infiniflow/ragflow)** — 🆕 🏗️ 🔓 🆓  
   Self-hosted RAG engine with agents (Apache-2.0); you host the whole stack in Docker and can pair it with local models.
 - **[vLLM](https://docs.vllm.ai)** — 🏗️ 🔓 🆓  
@@ -111,10 +113,14 @@ You run the whole stack on hardware you control, so the vendor never sees your d
 
 Hosted, but the operator is locked out by cryptography, not by promise: end-to-end encryption, or a hardware enclave whose running code your client verifies before it sends anything.
 
-- **[Ente Photos](https://ente.com)** — 🆕 🏠 🔓 🆓 💰  
+- **[Confer](https://confer.to/)** — 🆕 ☁️ 🆓 💰  
+  AI chat from Signal's founder: history encrypted with passkey-derived keys that never leave your device; prompts are encrypted from your device into a confidential VM whose attestation the client checks against a public transparency log first; reproducible builds. Leaves the machine: product analytics to Confer's own API (pageviews, login events, timezone, user ID), and connectors (Gmail, Calendar) call Google from the client. Server source published without a licence. Free tier 20 messages a day; membership $34.99/month.
+- **[Ente Photos](https://ente.com)** — 🆕 ☁️ 🏗️ 🏠 🔓 📜 🇪🇺 🆓 💰  
   End-to-end encrypted photo storage whose AI search (faces, scenes) runs on your device; the server only ever holds ciphertext and can be self-hosted. AGPL-3.0.
 - **[Maple (OpenSecret)](https://github.com/MaplePrivacyLabs/Maple)** — 🆕 ☁️ 🔓 🆓 💰  
-  Private AI chat whose backend runs in AWS Nitro Enclaves; the client checks signed measurements of the running code before sending anything. Hosted, and needs an account.
+  Private AI chat: messages encrypted on device, decrypted only inside attested AWS Nitro Enclaves, inference in GPU TEEs; the client checks signed measurements first. Hosted, needs an account.
+- **[Privatemode](https://www.privatemode.ai/)** — 🆕 ☁️ 🔓 🆓 💰 🇪🇺  
+  Confidential-computing AI API and chat from Edgeless Systems (Germany) on AMD SEV-SNP / Intel TDX / NVIDIA H100-B200 confidential computing; the client-side proxy or SDK verifies remote attestation before any prompt is sent. Prompts are not stored or trained on; the web app keeps history in the browser. Leaves the machine: IP, timestamps, API key and token usage (up to 90 days; per-key usage kept for billing). Proxy and chat client MIT, core source-available for audit. EU-hosted.
 - **[Tinfoil](https://tinfoil.sh)** — 🆕 ☁️ 🔓 💰  
   Confidential-computing inference for open models: the client verifies the enclave's attestation against open-source code in transparency logs, then encrypts end-to-end to it — isolated from the host operator. Hosted.
 
@@ -124,21 +130,21 @@ These services have to read your data to do their job. What earns a place here i
 
 - **[Brethof Brain](https://brethof.ai/brain/)** — 🆕 ☁️ 🆓 💰  
   Memory for AI agents that processes your conversations and stores none of them on our side: our hub reads each exchange to curate it and keeps none of it. The memory itself lives on your machine (local edition), or encrypted in Germany under a passphrase only you hold (hosted) — ciphertext to everyone, us included, while locked. Processing runs on secure compute in Zurich; the model provider is bound by contract not to log, retain or train. The client is source-available: read every line and see what leaves. Disclosure: maintained by us.
-- **[Lumo (Proton)](https://lumo.proton.me)** — 🆕 ☁️ 🔓 🆓 💰  
-  Proton's AI assistant: a no-logs policy (each query is erased after the reply), no training on your chats, saved chats stored on your device and synced with zero-access encryption, servers controlled by Proton in Europe, open-source code. Guest use needs no account.
+- **[Lumo (Proton)](https://lumo.proton.me)** — 🆕 ☁️ 🔓 🇪🇺 🆓 💰  
+  Proton's AI assistant: its Terms bar using your chats to improve the service and say content is zero-access encrypted once processed; saved chats live on your device and sync with zero-access encryption. Runs on Proton-controlled servers in the EU; the apps are open source (the backend is not). Optional web search sends a simplified query to partner APIs. Guest use needs no account.
 
 ## Open-Weights Models You Can Audit
 
 Closed weights = closed privacy story. Public weights let you read what the model is, run it offline, and verify there's no hidden phone-home in the inference path.
 
 - **[DeepSeek V4 / V4.1](https://huggingface.co/deepseek-ai)**  
-  Open-weights frontier reasoning models, MIT: V4-Pro and V4-Flash (April 2026) and V4.1-Flash (September 2026). Run the weights locally — deepseek.com is the hosted service.
+  Open-weights frontier reasoning models, MIT: V4-Pro and V4-Flash (April 2026 preview; official releases V4-Flash-0731 and V4-Pro-0813 in July/August 2026) and V4.1-Flash (September 2026). Run the weights locally — deepseek.com is the hosted service.
 - **[Gemma 4](https://deepmind.google/models/gemma/)**  
-  Google's open-weights family; Gemma 4 (March 2026) is Apache-2.0 and not gated.
+  Google's open-weights family; Gemma 4 (April 2026; 12B added June 2026) is Apache-2.0 and not gated.
 - **[GLM-5.3](https://huggingface.co/zai-org/GLM-5.3)** — 🆕  
   Zhipu (Z.AI) open weights, August 2026. GLM-5.3-Flash is plain MIT; the full GLM-5.3 is MIT-style with one condition — a Z.AI security review, and only for model-as-a-service businesses above $10B revenue. Self-hosting is unrestricted.
 - **[Kimi K3](https://huggingface.co/moonshotai/Kimi-K3)** — 🆕  
-  Moonshot AI's open-weights model (June 2026) under the Kimi K3 License, a modified MIT: model-as-a-service businesses above $20M revenue need a separate agreement, and very large products must display "Kimi K3".
+  Moonshot AI's open-weights model (July 2026) under the Kimi K3 License, a modified MIT: model-as-a-service businesses above $20M annual revenue need a separate agreement, and products over 100M MAU or $20M monthly revenue must display "Kimi K3". Internal use is exempt.
 - **[Mistral Large 3 / Small 4](https://huggingface.co/mistralai)** — 🆕  
   Mistral's Apache-2.0 open weights: Large 3 (675B) and Small 4 (119B). Note Mistral Medium 3.5 is under a modified MIT licence that bars companies with over $20M monthly revenue.
 - **[Muse Glimmer (Meta)](https://huggingface.co/meta-models/Muse-Glimmer-30B)** — 🆕  
@@ -156,12 +162,14 @@ Verify the claims of vendors you have to use.
 
 - **[Exodus Privacy](https://exodus-privacy.eu.org)** — 🔓 🆓 🇪🇺  
   Static analysis of Android apps' tracker libraries.
-- **[Little Snitch](https://www.obdev.at/products/littlesnitch/)** — 🔒 💰 🍎 🐧  
+- **[Little Snitch](https://www.obdev.at/products/littlesnitch/)** — 🔒 💰 🆓 🍎 🐧  
   The de-facto standard for spotting what an app sends home. macOS, and since 2026 a Linux edition (eBPF component and web UI GPL-2.0, daemon free but proprietary).
 - **[mitmproxy](https://mitmproxy.org)** — 🔓 🆓  
   Intercept-and-inspect HTTP/S traffic. See what an "offline" tool actually sends home.
 - **[OpenSnitch](https://github.com/evilsocket/opensnitch)** — 🔓 🆓 🐧  
   Application-level firewall for Linux. Confirm a desktop AI tool isn't talking to anyone.
+- **[Portmaster](https://safing.io/)** — 🆕 🔓 🆓 💰 🐧  
+  Application firewall that shows and blocks every connection per app — see what your AI tools contact. Windows and Linux. Leaves the machine: signed updates and blocklist/GeoIP data download automatically, and DNS goes to Cloudflare over DoT by default (configurable). Network history and the SPN relay are paid. GPL-3.0.
 - **[Wireshark](https://www.wireshark.org)** — 🔓 🆓  
   Packet capture and analysis. Last-resort proof of what crosses the network.
 

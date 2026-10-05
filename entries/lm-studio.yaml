@@ -3,10 +3,10 @@ slug: lm-studio
 url: https://lmstudio.ai
 category: level-1-on-your-device
 category_label: Level 1 — On Your Device
-tagline: Desktop app for running local models; chats and documents stay on your machine when
-  you use local models. Closed source (only the lms CLI is MIT). It still contacts LM Studio
-  for update checks and model search, and now sells optional paid cloud tiers — the free tier
-  is local.
+tagline: 'Desktop app for running local models (plus the newer Bionic agent app); chats and
+  documents stay on your machine when you use local models, no account needed. Closed source
+  (CLI, SDKs and MLX engine are MIT). It still sends update checks and model searches to LM
+  Studio, and sells optional paid cloud models (Bionic+/Pro) — the free tier is local.'
 tags:
 - on-device
 - closed source
@@ -14,3 +14,4 @@ tags:
 list: private-ai
 added: '2026-04-30'
 category_order: 0
+verified: '2026-10-05'
