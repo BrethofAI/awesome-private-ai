@@ -46,6 +46,7 @@ them. Be skeptical of any vendor's claim — verify against their
 [awesome-ai-minefield](https://github.com/BrethofAI/awesome-ai-minefield) entry
 when in doubt.
 
+<!-- github-only -->
 ## Legend
 
 - 🏠 on-device · 🏗️ self-hosted · ☁️ hosted (with privacy claims)
@@ -54,3 +55,4 @@ when in doubt.
 - 🆓 free · 💰 paid · 🆓💰 mixed
 - 🇪🇺 EU-hosted (often relevant for GDPR-sensitive workloads)
 - 🆕 new — listed in the last 60 days
+<!-- /github-only -->

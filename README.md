@@ -46,6 +46,7 @@ them. Be skeptical of any vendor's claim — verify against their
 [awesome-ai-minefield](https://github.com/BrethofAI/awesome-ai-minefield) entry
 when in doubt.
 
+<!-- github-only -->
 ## Legend
 
 - 🏠 on-device · 🏗️ self-hosted · ☁️ hosted (with privacy claims)
@@ -54,7 +55,9 @@ when in doubt.
 - 🆓 free · 💰 paid · 🆓💰 mixed
 - 🇪🇺 EU-hosted (often relevant for GDPR-sensitive workloads)
 - 🆕 new — listed in the last 60 days
+<!-- /github-only -->
 
+<!-- LIST:START -->
 ## Contents
 
 - [Level 1 — On Your Device](#level-1-—-on-your-device) (7)
@@ -161,6 +164,8 @@ Verify the claims of vendors you have to use.
   Application-level firewall for Linux. Confirm a desktop AI tool isn't talking to anyone.
 - **[Wireshark](https://www.wireshark.org)** — 🔓 🆓  
   Packet capture and analysis. Last-resort proof of what crosses the network.
+
+<!-- LIST:END -->
 
 ## Related work
 
