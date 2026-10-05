@@ -1,8 +1,8 @@
 name: RAGFlow
 slug: ragflow
 url: https://github.com/infiniflow/ragflow
-category: self-hostable-ai-stacks
-category_label: Self-Hostable AI Stacks
+category: level-2-on-your-server
+category_label: Level 2 — On Your Server
 tagline: Self-hosted RAG engine with agents (Apache-2.0); you host the whole stack in Docker
   and can pair it with local models.
 tags:

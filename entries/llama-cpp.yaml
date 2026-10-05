@@ -1,8 +1,8 @@
 name: llama.cpp
 slug: llama-cpp
 url: https://github.com/ggml-org/llama.cpp
-category: on-device-ai
-category_label: On-Device AI
+category: level-1-on-your-device
+category_label: Level 1 — On Your Device
 tagline: The C/C++ inference engine most local tools build on, with an OpenAI-compatible llama-server.
   MIT, no account, runs on your own hardware.
 tags:

@@ -1,8 +1,8 @@
 name: LocalAI
 slug: localai
 url: https://localai.io
-category: self-hostable-ai-stacks
-category_label: Self-Hostable AI Stacks
+category: level-2-on-your-server
+category_label: Level 2 — On Your Server
 tagline: OpenAI-compatible inference server. Self-host once, swap in any client app.
 tags:
 - on-device

@@ -19,19 +19,27 @@ cryptographically isolated, or contractually no-retention with audit
 trail. A privacy-respecting cloud service belongs here. A local tool
 that exfiltrates telemetry doesn't.
 
-What we look for:
+Privacy is not yes-or-no, so every tool here sits on one rung of a
+ladder, and the list is ordered by it:
 
-1. **Architectural privacy** — the tool *can't* see your data, not just
-   *won't*. On-device inference, self-hosting, end-to-end encryption.
-2. **Self-hostable open source** — you can run the whole stack on your
-   own metal. No "open core, key features paywalled".
-3. **No mandatory account** for offline / local modes.
-4. **Transparent, verifiable data flow** — you can confirm with a packet
-   capture what does and doesn't leave your device.
+1. **On your device** — nothing leaves the machine.
+2. **On your server** — you host the whole stack; the vendor never sees
+   your data.
+3. **Can't see, provably** — hosted, but cryptography keeps the operator
+   out (hardware enclaves you can verify, end-to-end encryption).
+4. **Sees it to process it, keeps none of it** — the service must read
+   your data to work, and is built and bound not to keep it or train on
+   it. To be listed at this level a tool must show all three:
+   (a) a written no-retention / no-training commitment in its terms, not
+   just a marketing page; (b) whatever it stores is on your machine or
+   encrypted under a key only you hold; (c) a data flow you can check —
+   a source-available client or a documented architecture.
 
-If a privacy claim can only be taken on trust — a cloud "no-log" toggle
-you can't audit — it doesn't belong here. We removed the entire
-contractual/cloud tier for exactly that reason: no receipt, no entry.
+**Sees it and keeps it** is the rung we don't list. A local tool that
+sends your data home doesn't make level 1 either.
+
+Each entry also says what still leaves the machine — telemetry defaults,
+update checks, optional cloud features — and how to turn it off.
 
 We list both **architectures** and **vendors / tools** that implement
 them. Be skeptical of any vendor's claim — verify against their
@@ -48,22 +56,23 @@ when in doubt.
 
 ## Contents
 
-- [On-Device AI](#on-device-ai) (7)
-- [Self-Hostable AI Stacks](#self-hostable-ai-stacks) (7)
+- [Level 1 — On Your Device](#level-1-—-on-your-device) (7)
+- [Level 2 — On Your Server](#level-2-—-on-your-server) (7)
+- [Level 3 — Can't See, Provably](#level-3-—-can't-see-provably) (3)
+- [Level 4 — Processes, Never Stores](#level-4-—-processes-never-stores) (2)
 - [Open-Weights Models You Can Audit](#open-weights-models-you-can-audit) (9)
 - [Privacy Auditing Tools](#privacy-auditing-tools) (5)
-- [Verifiable Confidential Cloud](#verifiable-confidential-cloud) (2)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
 
-## On-Device AI
+## Level 1 — On Your Device
 
-The strongest privacy guarantee: nothing leaves the machine. See [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai) for the full catalog — highlights here.
+Nothing leaves the machine — the strongest guarantee there is. The full catalog of local tools lives in [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai); these are the ones whose privacy story we checked.
 
 - **[Brethof Voice Pro](https://brethof.ai/voice/)** — 🏠 🔒 💰  
   Voice-to-text, translation and subtitles that never leave your machine: audio, transcripts, translations and personal training data stay local. 30 transcription languages (+22 Chinese dialects), offline translation across 38, SRT/VTT subtitles, a voice keyboard, an MCP server for agents. The network sees a licence key and a version string at launch, and nothing once the update check is off and the models are on disk. *Disclosure: maintained by us.*
-- **[Ente Photos](https://ente.com)** — 🏠 🔓 🆓 💰  
-  End-to-end encrypted photo storage whose AI search (faces, scenes) runs on your device; the server only ever holds ciphertext and can be self-hosted. AGPL-3.0.
+- **[Hyperconsciousness (hc)](https://github.com/louis030195/hyperconsciousness)** — 🏠 🔓 🆓 ❓  
+  Encrypted, append-only knowledge store for agents (Rust, MIT) with scoped, expiring grants over MCP/HTTP; works with no hosted service, device sync optional. Developer alpha, no independent audit yet; installer builds auto-update from GitHub by default. Anything returned to a hosted model is visible to that model's provider.
 - **[Jan](https://jan.ai)** — 🏠 🔓 🆓  
   Open-source (Apache-2.0) desktop chat that works fully offline; conversations and logs stay on your computer unless you choose a remote API.
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — 🏠 🔓 🆓  
@@ -75,9 +84,9 @@ The strongest privacy guarantee: nothing leaves the machine. See [awesome-local-
 - **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** — 🏠 🔓 🆓  
   Whisper speech recognition fully offline on-device, including phones. MIT.
 
-## Self-Hostable AI Stacks
+## Level 2 — On Your Server
 
-Run the whole pipeline on your own infrastructure.
+You run the whole stack on hardware you control, so the vendor never sees your data. Watch the defaults: several phone home for telemetry until you switch it off, and each entry says how.
 
 - **[Anything LLM](https://anythingllm.com)** — 🏠 🏗️ 🔓 🆓  
   Self-hosted workspace with built-in RAG over your documents, MIT. Anonymous telemetry (PostHog) is ON by default — turn it off with DISABLE_TELEMETRY=true or under Privacy in the app.
@@ -93,6 +102,26 @@ Run the whole pipeline on your own infrastructure.
   Self-hosted RAG engine with agents (Apache-2.0); you host the whole stack in Docker and can pair it with local models.
 - **[vLLM](https://docs.vllm.ai)** — 🏗️ 🔓 🆓  
   High-throughput LLM serving you run yourself — no per-token middleman. Sends anonymous usage stats (hardware, model architecture, config) by default; opt out with VLLM_NO_USAGE_STATS=1 or DO_NOT_TRACK=1.
+
+## Level 3 — Can't See, Provably
+
+Hosted, but the operator is locked out by cryptography, not by promise: end-to-end encryption, or a hardware enclave whose running code your client verifies before it sends anything.
+
+- **[Ente Photos](https://ente.com)** — 🏠 🔓 🆓 💰  
+  End-to-end encrypted photo storage whose AI search (faces, scenes) runs on your device; the server only ever holds ciphertext and can be self-hosted. AGPL-3.0.
+- **[Maple (OpenSecret)](https://github.com/MaplePrivacyLabs/Maple)** — ☁️ 🔓 🆓 💰  
+  Private AI chat whose backend runs in AWS Nitro Enclaves; the client checks signed measurements of the running code before sending anything. Hosted, and needs an account.
+- **[Tinfoil](https://tinfoil.sh)** — ☁️ 🔓 💰  
+  Confidential-computing inference for open models: the client verifies the enclave's attestation against open-source code in transparency logs, then encrypts end-to-end to it — isolated from the host operator. Hosted.
+
+## Level 4 — Processes, Never Stores
+
+These services have to read your data to do their job. What earns a place here is what happens next: a written no-retention, no-training commitment; nothing stored except on your machine or under a key only you hold; and a data flow you can check.
+
+- **[Brethof Brain](https://brethof.ai/brain/)** — ☁️ 🆓 💰  
+  Memory for AI agents that processes your conversations and stores none of them on our side: our hub reads each exchange to curate it and keeps none of it. The memory itself lives on your machine (local edition), or encrypted in Germany under a passphrase only you hold (hosted) — ciphertext to everyone, us included, while locked. Processing runs on secure compute in Zurich; the model provider is bound by contract not to log, retain or train. The client is source-available: read every line and see what leaves. Disclosure: maintained by us.
+- **[Lumo (Proton)](https://lumo.proton.me)** — ☁️ 🔓 🆓 💰  
+  Proton's AI assistant: a no-logs policy (each query is erased after the reply), no training on your chats, saved chats stored on your device and synced with zero-access encryption, servers controlled by Proton in Europe, open-source code. Guest use needs no account.
 
 ## Open-Weights Models You Can Audit
 
@@ -132,15 +161,6 @@ Verify the claims of vendors you have to use.
 - **[Wireshark](https://www.wireshark.org)** — 🔓 🆓  
   Packet capture and analysis. Last-resort proof of what crosses the network.
 
-## Verifiable Confidential Cloud
-
-Hosted, but you do not have to take their word for it: the model runs in a hardware enclave, and your client checks a signed measurement of the exact code running before it sends anything. Cryptographic isolation, with a receipt — not a no-log promise.
-
-- **[Maple (OpenSecret)](https://github.com/MaplePrivacyLabs/Maple)** — ☁️ 🔓 🆓 💰  
-  Private AI chat whose backend runs in AWS Nitro Enclaves; the client checks signed measurements of the running code before sending anything. Hosted, and needs an account.
-- **[Tinfoil](https://tinfoil.sh)** — ☁️ 🔓 💰  
-  Confidential-computing inference for open models: the client verifies the enclave's attestation against open-source code in transparency logs, then encrypts end-to-end to it — isolated from the host operator. Hosted.
-
 ## Related work
 
 - **[awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai)** — Stricter "100% on-device" filter.
@@ -152,8 +172,9 @@ Hosted, but you do not have to take their word for it: the model runs in a hardw
 
 ## Contributing
 
-Open an issue with the tool, the privacy architecture (on-device,
-self-hosted, encrypted, etc.), and the verifiable evidence — repo URL,
+Open an issue with the tool, the level of the ladder you think it
+reaches (on-device, self-hosted, provably can't see, or processes but
+keeps nothing), and the verifiable evidence — repo URL,
 ToS clause, whitepaper. Marketing copy is not evidence. Entries live as
 one YAML file each under `entries/`; this README is generated from them,
 so edit the YAML, not the list above.

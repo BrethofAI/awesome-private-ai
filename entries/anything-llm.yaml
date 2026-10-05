@@ -1,8 +1,8 @@
 name: Anything LLM
 slug: anything-llm
 url: https://anythingllm.com
-category: self-hostable-ai-stacks
-category_label: Self-Hostable AI Stacks
+category: level-2-on-your-server
+category_label: Level 2 — On Your Server
 tagline: Self-hosted workspace with built-in RAG over your documents, MIT. Anonymous telemetry
   (PostHog) is ON by default — turn it off with DISABLE_TELEMETRY=true or under Privacy in
   the app.

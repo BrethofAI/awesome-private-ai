@@ -1,12 +1,26 @@
 # Per-category intro paragraphs, keyed by category slug (slugified label).
 
-on-device-ai: >
-  The strongest privacy guarantee: nothing leaves the machine. See
-  [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai) for the
-  full catalog — highlights here.
+level-1-on-your-device: >
+  Nothing leaves the machine — the strongest guarantee there is. The full
+  catalog of local tools lives in
+  [awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai); these
+  are the ones whose privacy story we checked.
 
-self-hostable-ai-stacks: >
-  Run the whole pipeline on your own infrastructure.
+level-2-on-your-server: >
+  You run the whole stack on hardware you control, so the vendor never sees
+  your data. Watch the defaults: several phone home for telemetry until you
+  switch it off, and each entry says how.
+
+level-3-cant-see-provably: >
+  Hosted, but the operator is locked out by cryptography, not by promise:
+  end-to-end encryption, or a hardware enclave whose running code your
+  client verifies before it sends anything.
+
+level-4-processes-never-stores: >
+  These services have to read your data to do their job. What earns a
+  place here is what happens next: a written no-retention, no-training
+  commitment; nothing stored except on your machine or under a key only
+  you hold; and a data flow you can check.
 
 open-weights-models-you-can-audit: >
   Closed weights = closed privacy story. Public weights let you read what the
@@ -15,9 +29,3 @@ open-weights-models-you-can-audit: >
 
 privacy-auditing-tools: >
   Verify the claims of vendors you have to use.
-
-verifiable-confidential-cloud: >
-  Hosted, but you do not have to take their word for it: the model runs in a
-  hardware enclave, and your client checks a signed measurement of the exact
-  code running before it sends anything. Cryptographic isolation, with a
-  receipt — not a no-log promise.

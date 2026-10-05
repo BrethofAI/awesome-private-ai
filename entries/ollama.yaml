@@ -1,8 +1,8 @@
 name: Ollama
 slug: ollama
 url: https://ollama.com
-category: on-device-ai
-category_label: On-Device AI
+category: level-1-on-your-device
+category_label: Level 1 — On Your Device
 tagline: 'Local LLM runtime, MIT, no account needed for local models. Its cloud features (cloud
   models, web search) are on by default — for local-only, set OLLAMA_NO_CLOUD=1 or "disable_ollama_cloud":
   true.'

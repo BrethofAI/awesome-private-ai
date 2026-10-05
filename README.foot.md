@@ -9,8 +9,9 @@
 
 ## Contributing
 
-Open an issue with the tool, the privacy architecture (on-device,
-self-hosted, encrypted, etc.), and the verifiable evidence — repo URL,
+Open an issue with the tool, the level of the ladder you think it
+reaches (on-device, self-hosted, provably can't see, or processes but
+keeps nothing), and the verifiable evidence — repo URL,
 ToS clause, whitepaper. Marketing copy is not evidence. Entries live as
 one YAML file each under `entries/`; this README is generated from them,
 so edit the YAML, not the list above.

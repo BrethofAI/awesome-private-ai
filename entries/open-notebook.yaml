@@ -1,8 +1,8 @@
 name: Open Notebook
 slug: open-notebook
 url: https://github.com/lfnovo/open-notebook
-category: self-hostable-ai-stacks
-category_label: Self-Hostable AI Stacks
+category: level-2-on-your-server
+category_label: Level 2 — On Your Server
 tagline: Self-hosted, open-source alternative to NotebookLM (MIT), with your own model backends
   and no cloud dependency.
 tags:

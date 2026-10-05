@@ -1,8 +1,8 @@
 name: whisper.cpp
 slug: whisper-cpp
 url: https://github.com/ggml-org/whisper.cpp
-category: on-device-ai
-category_label: On-Device AI
+category: level-1-on-your-device
+category_label: Level 1 — On Your Device
 tagline: Whisper speech recognition fully offline on-device, including phones. MIT.
 tags:
 - on-device

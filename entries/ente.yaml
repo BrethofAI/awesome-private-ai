@@ -1,8 +1,8 @@
 name: Ente Photos
 slug: ente
 url: https://ente.com
-category: on-device-ai
-category_label: On-Device AI
+category: level-3-cant-see-provably
+category_label: Level 3 — Can't See, Provably
 tagline: End-to-end encrypted photo storage whose AI search (faces, scenes) runs on your device;
   the server only ever holds ciphertext and can be self-hosted. AGPL-3.0.
 tags:
@@ -12,4 +12,4 @@ tags:
 - paid
 list: private-ai
 added: '2026-09-29'
-category_order: 0
+category_order: 2

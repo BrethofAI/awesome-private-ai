@@ -1,8 +1,8 @@
 name: Jan
 slug: jan
 url: https://jan.ai
-category: on-device-ai
-category_label: On-Device AI
+category: level-1-on-your-device
+category_label: Level 1 — On Your Device
 tagline: Open-source (Apache-2.0) desktop chat that works fully offline; conversations and
   logs stay on your computer unless you choose a remote API.
 tags:

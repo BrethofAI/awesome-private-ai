@@ -1,0 +1,19 @@
+name: Brethof Brain
+slug: brethof-brain
+url: https://brethof.ai/brain/
+category: level-4-processes-never-stores
+category_label: Level 4 — Processes, Never Stores
+tagline: 'Memory for AI agents that processes your conversations and stores none of them on
+  our side: our hub reads each exchange to curate it and keeps none of it. The memory itself
+  lives on your machine (local edition), or encrypted in Germany under a passphrase only you
+  hold (hosted) — ciphertext to everyone, us included, while locked. Processing runs on secure
+  compute in Zurich; the model provider is bound by contract not to log, retain or train.
+  The client is source-available: read every line and see what leaves. Disclosure: maintained
+  by us.'
+tags:
+- hosted
+- free
+- paid
+list: private-ai
+added: '2026-10-05'
+category_order: 3

@@ -1,8 +1,8 @@
 name: LibreChat
 slug: librechat
 url: https://github.com/LibreChat-AI/LibreChat
-category: self-hostable-ai-stacks
-category_label: Self-Hostable AI Stacks
+category: level-2-on-your-server
+category_label: Level 2 — On Your Server
 tagline: Multi-model chat platform. Self-host with full audit logging if you want it, none
   if you don't.
 tags:

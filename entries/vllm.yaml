@@ -1,8 +1,8 @@
 name: vLLM
 slug: vllm
 url: https://docs.vllm.ai
-category: self-hostable-ai-stacks
-category_label: Self-Hostable AI Stacks
+category: level-2-on-your-server
+category_label: Level 2 — On Your Server
 tagline: High-throughput LLM serving you run yourself — no per-token middleman. Sends anonymous
   usage stats (hardware, model architecture, config) by default; opt out with VLLM_NO_USAGE_STATS=1
   or DO_NOT_TRACK=1.

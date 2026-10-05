@@ -1,8 +1,8 @@
 name: Open WebUI
 slug: open-webui
 url: https://openwebui.com
-category: self-hostable-ai-stacks
-category_label: Self-Hostable AI Stacks
+category: level-2-on-your-server
+category_label: Level 2 — On Your Server
 tagline: 'Self-hosted chat UI for local + remote LLMs; pair it with Ollama or any OpenAI-compatible
   backend. Source-available since 2025: BSD-3 plus a branding clause (deployments over 50
   users may not remove the Open WebUI branding without permission) — its own docs say it is

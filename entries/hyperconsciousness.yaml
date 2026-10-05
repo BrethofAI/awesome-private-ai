@@ -1,0 +1,17 @@
+name: Hyperconsciousness (hc)
+slug: hyperconsciousness
+url: https://github.com/louis030195/hyperconsciousness
+category: level-1-on-your-device
+category_label: Level 1 — On Your Device
+tagline: Encrypted, append-only knowledge store for agents (Rust, MIT) with scoped, expiring
+  grants over MCP/HTTP; works with no hosted service, device sync optional. Developer alpha,
+  no independent audit yet; installer builds auto-update from GitHub by default. Anything
+  returned to a hosted model is visible to that model's provider.
+tags:
+- on-device
+- open source
+- free
+- unaudited
+list: private-ai
+added: '2026-10-05'
+category_order: 0

@@ -1,0 +1,17 @@
+name: Lumo (Proton)
+slug: lumo
+url: https://lumo.proton.me
+category: level-4-processes-never-stores
+category_label: Level 4 — Processes, Never Stores
+tagline: 'Proton''s AI assistant: a no-logs policy (each query is erased after the reply),
+  no training on your chats, saved chats stored on your device and synced with zero-access
+  encryption, servers controlled by Proton in Europe, open-source code. Guest use needs no
+  account.'
+tags:
+- hosted
+- open source
+- free
+- paid
+list: private-ai
+added: '2026-10-05'
+category_order: 3

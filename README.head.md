@@ -19,19 +19,27 @@ cryptographically isolated, or contractually no-retention with audit
 trail. A privacy-respecting cloud service belongs here. A local tool
 that exfiltrates telemetry doesn't.
 
-What we look for:
+Privacy is not yes-or-no, so every tool here sits on one rung of a
+ladder, and the list is ordered by it:
 
-1. **Architectural privacy** — the tool *can't* see your data, not just
-   *won't*. On-device inference, self-hosting, end-to-end encryption.
-2. **Self-hostable open source** — you can run the whole stack on your
-   own metal. No "open core, key features paywalled".
-3. **No mandatory account** for offline / local modes.
-4. **Transparent, verifiable data flow** — you can confirm with a packet
-   capture what does and doesn't leave your device.
+1. **On your device** — nothing leaves the machine.
+2. **On your server** — you host the whole stack; the vendor never sees
+   your data.
+3. **Can't see, provably** — hosted, but cryptography keeps the operator
+   out (hardware enclaves you can verify, end-to-end encryption).
+4. **Sees it to process it, keeps none of it** — the service must read
+   your data to work, and is built and bound not to keep it or train on
+   it. To be listed at this level a tool must show all three:
+   (a) a written no-retention / no-training commitment in its terms, not
+   just a marketing page; (b) whatever it stores is on your machine or
+   encrypted under a key only you hold; (c) a data flow you can check —
+   a source-available client or a documented architecture.
 
-If a privacy claim can only be taken on trust — a cloud "no-log" toggle
-you can't audit — it doesn't belong here. We removed the entire
-contractual/cloud tier for exactly that reason: no receipt, no entry.
+**Sees it and keeps it** is the rung we don't list. A local tool that
+sends your data home doesn't make level 1 either.
+
+Each entry also says what still leaves the machine — telemetry defaults,
+update checks, optional cloud features — and how to turn it off.
 
 We list both **architectures** and **vendors / tools** that implement
 them. Be skeptical of any vendor's claim — verify against their
