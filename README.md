@@ -76,17 +76,20 @@ Nothing leaves the machine — the strongest guarantee there is. The full catalo
 - **[Brethof Voice Pro](https://brethof.ai/voice/)** — 🏠 🔒 💰  
   Voice-to-text, translation and subtitles that never leave your machine: audio, transcripts, translations and personal training data stay local. 30 transcription languages (+22 Chinese dialects), offline translation across 38, SRT/VTT subtitles, a voice keyboard, an MCP server for agents. The network sees a licence key and a version string at launch, and nothing once the update check is off and the models are on disk. *Disclosure: maintained by us.*
 - **[Hyperconsciousness (hc)](https://github.com/louis030195/hyperconsciousness)** — 🆕 🏠 🔓 🆓 ❓  
-  Encrypted, append-only knowledge store for agents (Rust, MIT) with scoped, expiring grants over MCP/HTTP; works with no hosted service, device sync optional. Developer alpha, no independent audit yet; installer builds auto-update from GitHub by default. Anything returned to a hosted model is visible to that model's provider.
+  Encrypted, append-only knowledge store for agents (Rust, MIT) with scoped, expiring grants over MCP/HTTP; works with no hosted service, device sync optional. Developer alpha, no independent audit yet; installer builds auto-update from GitHub by default. Anything returned to a hosted model is visible to that model's provider.  
+  <sub>★ 5 · last push 2026-10-05</sub>
 - **[Jan](https://jan.ai)** — 🆕 🏠 🔓 🆓  
   Open-source (Apache-2.0) desktop chat that works fully offline; conversations and logs stay on your computer unless you choose a remote API. It checks jan.ai/GitHub for updates; usage analytics are opt-in at first launch.
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — 🆕 🏠 🔓 🆓  
-  The C/C++ inference engine most local tools build on, with an OpenAI-compatible server (`llama serve` / llama-server). MIT, no account, no telemetry; the network is touched only when you pull models from Hugging Face (`-hf`) or use the installer.
+  The C/C++ inference engine most local tools build on, with an OpenAI-compatible server (`llama serve` / llama-server). MIT, no account, no telemetry; the network is touched only when you pull models from Hugging Face (`-hf`) or use the installer.  
+  <sub>★ 130.4k · v0.5.0 (2026-09-23)</sub>
 - **[LM Studio](https://lmstudio.ai)** — 🏠 🔒 🆓  
   Desktop app for running local models (plus the newer Bionic agent app); chats and documents stay on your machine when you use local models, no account needed. Closed source (CLI, SDKs and MLX engine are MIT). It still sends update checks and model searches to LM Studio, and sells optional paid cloud models (Bionic+/Pro) — the free tier is local.
 - **[Ollama](https://ollama.com)** — 🏠 🔓 🆓  
   Local LLM runtime, MIT, no account needed for local models. Its cloud features (cloud models, web search) are on by default — for local-only, set OLLAMA_NO_CLOUD=1 or "disable_ollama_cloud": true in ~/.ollama/server.json. The macOS/Windows app auto-downloads updates.
 - **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** — 🆕 🏠 🔓 🆓  
-  Whisper speech recognition fully offline on-device, including phones. MIT.
+  Whisper speech recognition fully offline on-device, including phones. MIT.  
+  <sub>★ 54.1k · v1.9.4 (2026-09-11)</sub>
 
 ## Level 2 — On Your Server
 
@@ -97,15 +100,18 @@ You run the whole stack on hardware you control, so the vendor never sees your d
 - **[Immich](https://immich.app/)** — 🆕 🏗️ 🔓 🆓  
   Self-hosted photo and video library; face recognition, CLIP search and OCR run in your own machine-learning container. Leaves the server by default: a new-version check, map tiles from tiles.immich.cloud, and a one-time ML model download from Hugging Face — all can be switched off in the config. AGPL-3.0.
 - **[LibreChat](https://github.com/LibreChat-AI/LibreChat)** — 🏗️ 🔓 🆓  
-  Multi-model chat platform (MIT), owned by ClickHouse since Nov 2025. No vendor telemetry; logs stay on your server unless you point OpenTelemetry/Langfuse somewhere.
+  Multi-model chat platform (MIT), owned by ClickHouse since Nov 2025. No vendor telemetry; logs stay on your server unless you point OpenTelemetry/Langfuse somewhere.  
+  <sub>★ 45.3k · last push 2026-10-05</sub>
 - **[LocalAI](https://localai.io)** — 🏠 🏗️ 🔓 🆓  
   OpenAI- and Anthropic-compatible server for text, voice, image, video and agents (MIT). No telemetry; only model/backend downloads from its gallery leave the box.
 - **[Open Notebook](https://github.com/lfnovo/open-notebook)** — 🆕 🏗️ 🔓 🆓  
-  Self-hosted, open-source alternative to NotebookLM (MIT), with your own model backends and no cloud dependency.
+  Self-hosted, open-source alternative to NotebookLM (MIT), with your own model backends and no cloud dependency.  
+  <sub>★ 39.8k · v1.15.0 (2026-10-04)</sub>
 - **[Open WebUI](https://openwebui.com)** — 🏗️ 🆓  
   Self-hosted chat UI for local + remote LLMs; pair it with Ollama or any OpenAI-compatible backend. Source-available since v0.6.6 (Apr 2025): BSD-3 plus a branding clause (over 50 users in 30 days may not remove the branding without permission); its docs say it is not OSI open source. Telemetry off in the official image, but it checks GitHub for updates by default — ENABLE_VERSION_UPDATE_CHECK=false or OFFLINE_MODE=true. Core is free; Terminals needs an enterprise licence.
 - **[RAGFlow](https://github.com/infiniflow/ragflow)** — 🆕 🏗️ 🔓 🆓  
-  Self-hosted RAG engine with agents (Apache-2.0); you host the whole stack in Docker and can pair it with local models.
+  Self-hosted RAG engine with agents (Apache-2.0); you host the whole stack in Docker and can pair it with local models.  
+  <sub>★ 91.7k · v1.0.0-rc1 (2026-09-29)</sub>
 - **[vLLM](https://docs.vllm.ai)** — 🏗️ 🔓 🆓  
   High-throughput LLM serving you run yourself — no per-token middleman. Sends anonymous usage stats (hardware, model architecture, config) by default; opt out with VLLM_NO_USAGE_STATS=1 or DO_NOT_TRACK=1.
 
@@ -118,7 +124,8 @@ Hosted, but the operator is locked out by cryptography, not by promise: end-to-e
 - **[Ente Photos](https://ente.com)** — 🆕 ☁️ 🏗️ 🏠 🔓 📜 🇪🇺 🆓 💰  
   End-to-end encrypted photo storage whose AI search (faces, scenes) runs on your device; the server only ever holds ciphertext and can be self-hosted. AGPL-3.0.
 - **[Maple (OpenSecret)](https://github.com/MaplePrivacyLabs/Maple)** — 🆕 ☁️ 🔓 🆓 💰  
-  Private AI chat: messages encrypted on device, decrypted only inside attested AWS Nitro Enclaves, inference in GPU TEEs; the client checks signed measurements first. Hosted, needs an account.
+  Private AI chat: messages encrypted on device, decrypted only inside attested AWS Nitro Enclaves, inference in GPU TEEs; the client checks signed measurements first. Hosted, needs an account.  
+  <sub>★ 98 · v3.4.1 (2026-09-15)</sub>
 - **[Privatemode](https://www.privatemode.ai/)** — 🆕 ☁️ 🔓 🆓 💰 🇪🇺  
   Confidential-computing AI API and chat from Edgeless Systems (Germany) on AMD SEV-SNP / Intel TDX / NVIDIA H100-B200 confidential computing; the client-side proxy or SDK verifies remote attestation before any prompt is sent. Prompts are not stored or trained on; the web app keeps history in the browser. Leaves the machine: IP, timestamps, API key and token usage (up to 90 days; per-key usage kept for billing). Proxy and chat client MIT, core source-available for audit. EU-hosted.
 - **[Tinfoil](https://tinfoil.sh)** — 🆕 ☁️ 🔓 💰  
@@ -152,9 +159,11 @@ Closed weights = closed privacy story. Public weights let you read what the mode
 - **[Qwen 3.8](https://huggingface.co/Qwen)** — 🆕  
   Alibaba's current open-weights family (August 2026). Mixed licences: Qwen3.8-27B is Apache-2.0, but Flash-Next and the flagship carry custom licences restricting large or model-as-a-service businesses — check the model card.
 - **[Qwen3-ASR](https://github.com/QwenLM/Qwen3-ASR)**  
-  Multilingual ASR model (0.6B / 1.7B, open weights). Powers transcription in Brethof Voice Pro.
+  Multilingual ASR model (0.6B / 1.7B, open weights). Powers transcription in Brethof Voice Pro.  
+  <sub>★ 3.6k · last push 2026-06-26</sub>
 - **[Whisper](https://github.com/openai/whisper)**  
-  OpenAI's open-weights speech recognition, MIT. No model newer than large-v3-turbo (October 2024), but the repo is maintained.
+  OpenAI's open-weights speech recognition, MIT. No model newer than large-v3-turbo (October 2024), but the repo is maintained.  
+  <sub>★ 110k · v20250625 (2025-06-26)</sub>
 
 ## Privacy Auditing Tools
 
@@ -167,7 +176,8 @@ Verify the claims of vendors you have to use.
 - **[mitmproxy](https://mitmproxy.org)** — 🔓 🆓  
   Intercept-and-inspect HTTP/S traffic. See what an "offline" tool actually sends home.
 - **[OpenSnitch](https://github.com/evilsocket/opensnitch)** — 🔓 🆓 🐧  
-  Application-level firewall for Linux. Confirm a desktop AI tool isn't talking to anyone.
+  Application-level firewall for Linux. Confirm a desktop AI tool isn't talking to anyone.  
+  <sub>★ 14.1k · v1.8.0 (2025-12-15)</sub>
 - **[Portmaster](https://safing.io/)** — 🆕 🔓 🆓 💰 🐧  
   Application firewall that shows and blocks every connection per app — see what your AI tools contact. Windows and Linux. Leaves the machine: signed updates and blocklist/GeoIP data download automatically, and DNS goes to Cloudflare over DoT by default (configurable). Network history and the SPN relay are paid. GPL-3.0.
 - **[Wireshark](https://www.wireshark.org)** — 🔓 🆓  
