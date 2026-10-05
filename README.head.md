@@ -53,3 +53,4 @@ when in doubt.
 - 📜 audited · ❓ unaudited
 - 🆓 free · 💰 paid · 🆓💰 mixed
 - 🇪🇺 EU-hosted (often relevant for GDPR-sensitive workloads)
+- 🆕 new — listed in the last 60 days
