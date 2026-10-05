@@ -1,0 +1,435 @@
+{
+ "checked": "2026-10-05",
+ "entries": {
+  "anything-llm": {
+   "checked": "2026-10-05",
+   "name": "Anything LLM",
+   "url": "https://anythingllm.com",
+   "web": {
+    "final": "https://anythingllm.com/",
+    "status": 200,
+    "title": "AnythingLLM — On-device AI for productivity | Local & Private"
+   }
+  },
+  "brethof-brain": {
+   "checked": "2026-10-05",
+   "name": "Brethof Brain",
+   "url": "https://brethof.ai/brain/",
+   "web": {
+    "final": "https://brethof.ai/brain/",
+    "status": 200,
+    "title": "brethof-brain — memory for AI agents we only process, never store"
+   }
+  },
+  "brethof-voice-pro": {
+   "checked": "2026-10-05",
+   "name": "Brethof Voice Pro",
+   "url": "https://brethof.ai/voice/",
+   "web": {
+    "final": "https://brethof.ai/voice/",
+    "status": 200,
+    "title": "Brethof Voice Pro — Offline Voice to Text Software | Now with Offline Translation"
+   }
+  },
+  "confer": {
+   "checked": "2026-10-05",
+   "name": "Confer",
+   "url": "https://confer.to/",
+   "web": {
+    "final": "https://confer.to/",
+    "status": 200,
+    "title": "Confer â Private AI. Speak freely."
+   }
+  },
+  "deepseek-v4": {
+   "checked": "2026-10-05",
+   "name": "DeepSeek V4 / V4.1",
+   "url": "https://huggingface.co/deepseek-ai",
+   "web": {
+    "final": "https://huggingface.co/deepseek-ai",
+    "status": 200,
+    "title": "deepseek-ai (DeepSeek)"
+   }
+  },
+  "ente": {
+   "checked": "2026-10-05",
+   "name": "Ente Photos",
+   "url": "https://ente.com",
+   "web": {
+    "final": "https://ente.com/",
+    "status": 200,
+    "title": "Ente Photos: Store and share your photos with absolute privacy"
+   }
+  },
+  "exodus-privacy": {
+   "checked": "2026-10-05",
+   "name": "Exodus Privacy",
+   "url": "https://exodus-privacy.eu.org",
+   "web": {
+    "final": "https://exodus-privacy.eu.org/",
+    "status": 200,
+    "title": "https://exodus-privacy.eu.org/en"
+   }
+  },
+  "gemma": {
+   "checked": "2026-10-05",
+   "name": "Gemma 4",
+   "url": "https://deepmind.google/models/gemma/",
+   "web": {
+    "final": "https://deepmind.google/models/gemma/",
+    "status": 200,
+    "title": "Gemma â Google DeepMind"
+   }
+  },
+  "glm-5-3": {
+   "checked": "2026-10-05",
+   "name": "GLM-5.3",
+   "url": "https://huggingface.co/zai-org/GLM-5.3",
+   "web": {
+    "final": "https://huggingface.co/zai-org/GLM-5.3",
+    "status": 200,
+    "title": "zai-org/GLM-5.3 · Hugging Face"
+   }
+  },
+  "hyperconsciousness": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "iCloud for agents. An encrypted, permissioned knowledge layer for humans and agents.",
+    "licence": "MIT",
+    "pushed": "2026-10-05",
+    "release": null,
+    "released": null,
+    "repo": "louis030195/hyperconsciousness",
+    "stars": 5
+   },
+   "github_ref": "louis030195/hyperconsciousness",
+   "name": "Hyperconsciousness (hc)",
+   "url": "https://github.com/louis030195/hyperconsciousness"
+  },
+  "immich": {
+   "checked": "2026-10-05",
+   "name": "Immich",
+   "url": "https://immich.app/",
+   "web": {
+    "final": "https://immich.app/",
+    "status": 200,
+    "title": "Immich"
+   }
+  },
+  "jan": {
+   "checked": "2026-10-05",
+   "name": "Jan",
+   "url": "https://jan.ai",
+   "web": {
+    "final": "https://www.jan.ai/",
+    "status": 200,
+    "title": "Jan - Open-Source ChatGPT Replacement"
+   }
+  },
+  "kimi-k3": {
+   "checked": "2026-10-05",
+   "name": "Kimi K3",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3",
+   "web": {
+    "final": "https://huggingface.co/moonshotai/Kimi-K3",
+    "status": 200,
+    "title": "moonshotai/Kimi-K3 · Hugging Face"
+   }
+  },
+  "librechat": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "licence": "MIT",
+    "pushed": "2026-10-05",
+    "release": null,
+    "released": null,
+    "repo": "LibreChat-AI/LibreChat",
+    "stars": 45293
+   },
+   "github_ref": "LibreChat-AI/LibreChat",
+   "name": "LibreChat",
+   "url": "https://github.com/LibreChat-AI/LibreChat"
+  },
+  "little-snitch": {
+   "checked": "2026-10-05",
+   "name": "Little Snitch",
+   "url": "https://www.obdev.at/products/littlesnitch/",
+   "web": {
+    "final": "https://www.obdev.at/products/littlesnitch/index.html",
+    "status": 200,
+    "title": "Little Snitch — Network Monitor and Application Firewall for macOS"
+   }
+  },
+  "llama-cpp": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "LLM inference in C/C++",
+    "licence": "MIT",
+    "pushed": "2026-10-05",
+    "release": "v0.5.0",
+    "released": "2026-09-23",
+    "repo": "ggml-org/llama.cpp",
+    "stars": 130361
+   },
+   "github_ref": "ggml-org/llama.cpp",
+   "name": "llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp"
+  },
+  "lm-studio": {
+   "checked": "2026-10-05",
+   "name": "LM Studio",
+   "url": "https://lmstudio.ai",
+   "web": {
+    "final": "https://lmstudio.ai/",
+    "status": 200,
+    "title": "LM Studio Bionic - Agent for Work and Code"
+   }
+  },
+  "localai": {
+   "checked": "2026-10-05",
+   "name": "LocalAI",
+   "url": "https://localai.io",
+   "web": {
+    "final": "https://localai.io/",
+    "status": 200,
+    "title": "LocalAI · Make AI run on every machine"
+   }
+  },
+  "lumo": {
+   "checked": "2026-10-05",
+   "name": "Lumo (Proton)",
+   "url": "https://lumo.proton.me",
+   "web": {
+    "final": "https://lumo.proton.me/",
+    "status": 200,
+    "title": "Lumo: Privacy-first AI assistant where chats stay confidential"
+   }
+  },
+  "maple": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "Maple - Private AI Chat",
+    "licence": "MIT",
+    "pushed": "2026-10-05",
+    "release": "v3.4.1",
+    "released": "2026-09-15",
+    "repo": "MaplePrivacyLabs/Maple",
+    "stars": 98
+   },
+   "github_ref": "MaplePrivacyLabs/Maple",
+   "name": "Maple (OpenSecret)",
+   "url": "https://github.com/MaplePrivacyLabs/Maple"
+  },
+  "mistral": {
+   "checked": "2026-10-05",
+   "name": "Mistral Large 3 / Small 4",
+   "url": "https://huggingface.co/mistralai",
+   "web": {
+    "final": "https://huggingface.co/mistralai",
+    "status": 200,
+    "title": "mistralai (Mistral AI_)"
+   }
+  },
+  "mitmproxy": {
+   "checked": "2026-10-05",
+   "name": "mitmproxy",
+   "url": "https://mitmproxy.org",
+   "web": {
+    "final": "https://www.mitmproxy.org/",
+    "status": 200,
+    "title": "mitmproxy - an interactive HTTPS proxy"
+   }
+  },
+  "muse-glimmer": {
+   "checked": "2026-10-05",
+   "name": "Muse Glimmer (Meta)",
+   "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+   "web": {
+    "final": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+    "status": 200,
+    "title": "meta-models/Muse-Glimmer-30B · Hugging Face"
+   }
+  },
+  "ollama": {
+   "checked": "2026-10-05",
+   "name": "Ollama",
+   "url": "https://ollama.com",
+   "web": {
+    "final": "https://ollama.com/",
+    "status": 200,
+    "title": "Ollama"
+   }
+  },
+  "open-notebook": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+    "licence": "MIT",
+    "pushed": "2026-10-05",
+    "release": "v1.15.0",
+    "released": "2026-10-04",
+    "repo": "lfnovo/open-notebook",
+    "stars": 39816
+   },
+   "github_ref": "lfnovo/open-notebook",
+   "name": "Open Notebook",
+   "url": "https://github.com/lfnovo/open-notebook"
+  },
+  "open-webui": {
+   "checked": "2026-10-05",
+   "name": "Open WebUI",
+   "url": "https://openwebui.com",
+   "web": {
+    "final": "https://openwebui.com/",
+    "status": 200,
+    "title": "Open WebUI: Self-Hosted AI Platform"
+   }
+  },
+  "opensnitch": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch.",
+    "licence": "GPL-3.0",
+    "pushed": "2026-07-26",
+    "release": "v1.8.0",
+    "released": "2025-12-15",
+    "repo": "evilsocket/opensnitch",
+    "stars": 14122
+   },
+   "github_ref": "evilsocket/opensnitch",
+   "name": "OpenSnitch",
+   "url": "https://github.com/evilsocket/opensnitch"
+  },
+  "portmaster": {
+   "checked": "2026-10-05",
+   "name": "Portmaster",
+   "url": "https://safing.io/",
+   "web": {
+    "final": "https://safing.io/",
+    "status": 200,
+    "title": "Portmaster - Application Firewall by Safing"
+   }
+  },
+  "privatemode": {
+   "checked": "2026-10-05",
+   "name": "Privatemode",
+   "url": "https://www.privatemode.ai/",
+   "web": {
+    "final": "https://www.privatemode.ai/",
+    "status": 200,
+    "title": null
+   }
+  },
+  "qwen-3-8": {
+   "checked": "2026-10-05",
+   "name": "Qwen 3.8",
+   "url": "https://huggingface.co/Qwen",
+   "web": {
+    "final": "https://huggingface.co/Qwen",
+    "status": 200,
+    "title": "Qwen (Qwen)"
+   }
+  },
+  "qwen3-asr": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song recognition, language detection and timestamp prediction.",
+    "licence": "Apache-2.0",
+    "pushed": "2026-06-26",
+    "release": null,
+    "released": null,
+    "repo": "QwenLM/Qwen3-ASR",
+    "stars": 3643
+   },
+   "github_ref": "QwenLM/Qwen3-ASR",
+   "name": "Qwen3-ASR",
+   "url": "https://github.com/QwenLM/Qwen3-ASR"
+  },
+  "ragflow": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "licence": "Apache-2.0",
+    "pushed": "2026-10-04",
+    "release": "v1.0.0-rc1",
+    "released": "2026-09-29",
+    "repo": "infiniflow/ragflow",
+    "stars": 91690
+   },
+   "github_ref": "infiniflow/ragflow",
+   "name": "RAGFlow",
+   "url": "https://github.com/infiniflow/ragflow"
+  },
+  "tinfoil": {
+   "checked": "2026-10-05",
+   "name": "Tinfoil",
+   "url": "https://tinfoil.sh",
+   "web": {
+    "final": "https://tinfoil.sh/",
+    "status": 200,
+    "title": "Tinfoil - Private AI"
+   }
+  },
+  "vllm": {
+   "checked": "2026-10-05",
+   "name": "vLLM",
+   "url": "https://docs.vllm.ai",
+   "web": {
+    "final": "https://docs.vllm.ai/en/latest/",
+    "status": 429,
+    "title": "Just a moment..."
+   }
+  },
+  "whisper": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "licence": "MIT",
+    "pushed": "2026-08-31",
+    "release": "v20250625",
+    "released": "2025-06-26",
+    "repo": "openai/whisper",
+    "stars": 109989
+   },
+   "github_ref": "openai/whisper",
+   "name": "Whisper",
+   "url": "https://github.com/openai/whisper"
+  },
+  "whisper-cpp": {
+   "checked": "2026-10-05",
+   "github": {
+    "archived": false,
+    "description": "Port of OpenAI's Whisper model in C/C++",
+    "licence": "MIT",
+    "pushed": "2026-10-02",
+    "release": "v1.9.4",
+    "released": "2026-09-11",
+    "repo": "ggml-org/whisper.cpp",
+    "stars": 54145
+   },
+   "github_ref": "ggml-org/whisper.cpp",
+   "name": "whisper.cpp",
+   "url": "https://github.com/ggml-org/whisper.cpp"
+  },
+  "wireshark": {
+   "checked": "2026-10-05",
+   "name": "Wireshark",
+   "url": "https://www.wireshark.org",
+   "web": {
+    "final": "https://www.wireshark.org/",
+    "status": 200,
+    "title": "Wireshark • Go Deep"
+   }
+  }
+ }
+}
