@@ -1,0 +1,9 @@
+# awesome-private-ai
+
+> A curated list of AI tools that protect data sovereignty through architecture, ranging from on-device applications to self-hosted servers and cryptographically isolated services.
+
+The project is a markdown list maintained by Brethof AI, organized into four privacy levels based on data control. It catalogs open-source and closed-source tools, models, and auditing utilities, specifying telemetry defaults and configuration steps for each entry.
+
+## Docs
+
+- [awesome-private-ai](https://raw.githubusercontent.com/BrethofAI/awesome-private-ai/main/README.md): A curated list of AI tools protecting data sovereignty through architecture, ranked by privacy ladder levels.
