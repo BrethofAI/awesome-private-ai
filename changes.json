@@ -1,5 +1,24 @@
 {
- "checked": "2026-10-05",
- "since": false,
- "changes": []
+ "checked": "2026-10-12",
+ "since": true,
+ "changes": [
+  {
+   "slug": "llama-cpp",
+   "name": "llama.cpp",
+   "kind": "release",
+   "detail": "v0.5.0 → v0.6.0 (2026-10-05)"
+  },
+  {
+   "slug": "maple",
+   "name": "Maple (OpenSecret)",
+   "kind": "release",
+   "detail": "v3.4.1 → v3.4.3 (2026-10-05)"
+  },
+  {
+   "slug": "whisper-cpp",
+   "name": "whisper.cpp",
+   "kind": "release",
+   "detail": "v1.9.4 → v1.9.5 (2026-10-06)"
+  }
+ ]
 }
