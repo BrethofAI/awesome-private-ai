@@ -1,9 +1,18 @@
 # awesome-private-ai
 
-> A curated list of AI tools that protect data sovereignty through architecture, ranging from on-device applications to self-hosted servers and cryptographically isolated services.
+> A curated list of AI tools that protect data sovereignty through architecture, categorized by privacy levels from on-device to hosted.
 
-The project is a markdown list maintained by Brethof AI, organized into four privacy levels based on data control. It catalogs open-source and closed-source tools, models, and auditing utilities, specifying telemetry defaults and configuration steps for each entry.
+The project is a maintained list of architectures and vendors, not a software library. It organizes tools into four privacy levels and includes sections for open-weights models and auditing tools. Each entry specifies data flow, telemetry defaults, and how to disable network activity.
 
 ## Docs
 
-- [awesome-private-ai](https://raw.githubusercontent.com/BrethofAI/awesome-private-ai/main/README.md): A curated list of AI tools protecting data sovereignty through architecture, ranked by privacy ladder levels.
+- [awesome-private-ai](https://raw.githubusercontent.com/BrethofAI/awesome-private-ai/main/README.md): Curated list of AI tools prioritizing data sovereignty through architectural privacy rather than policy promises.
+- [Why this list exists — and how it differs from awesome-local-ai](https://github.com/BrethofAI/awesome-private-ai/blob/main/README.md#why-this-list-exists--and-how-it-differs-from-awesome-local-ai): Distinction between local and private tools, plus the four-tier privacy ladder used to categorize entries.
+- [Legend](https://github.com/BrethofAI/awesome-private-ai/blob/main/README.md#legend): Symbol key explaining icons for hosting type, source availability, audit status, pricing, and region.
+- [Level 1 — On Your Device](https://github.com/BrethofAI/awesome-private-ai/blob/main/README.md#level-1--on-your-device): Catalog of on-device AI tools where data never leaves the user's local machine.
+- [Level 2 — On Your Server](https://github.com/BrethofAI/awesome-private-ai/blob/main/README.md#level-2--on-your-server): Self-hosted AI tools running on user-controlled servers, with notes on default telemetry settings.
+- [Level 3 — Can't See, Provably](https://github.com/BrethofAI/awesome-private-ai/blob/main/README.md#level-3--cant-see-provably): Hosted AI services using cryptography or hardware enclaves to provably prevent operator data access.
+- [Level 4 — Processes, Never Stores](https://github.com/BrethofAI/awesome-private-ai/blob/main/README.md#level-4--processes-never-stores): Services with no-retention commitments, local or user-keyed storage, and verifiable data flows.
+- [Open-Weights Models You Can Audit](https://github.com/BrethofAI/awesome-private-ai/blob/main/README.md#open-weights-models-you-can-audit): Open-weights models with licenses permitting local execution, offline inference, and code auditing.
+- [Privacy Auditing Tools](https://github.com/BrethofAI/awesome-private-ai/blob/main/README.md#privacy-auditing-tools): Tools for static analysis, network interception, and firewalling to verify vendor privacy claims.
+- [Related work](https://github.com/BrethofAI/awesome-private-ai/blob/main/README.md#related-work): Links to related lists covering local AI, license analysis, Linux distros, and MCP servers.
