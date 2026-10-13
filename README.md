@@ -81,7 +81,7 @@ Nothing leaves the machine — the strongest guarantee there is. The full catalo
 - **[Jan](https://jan.ai)** — 🆕 🏠 🔓 🆓  
   Open-source (Apache-2.0) desktop chat that works fully offline; conversations and logs stay on your computer unless you choose a remote API. It checks jan.ai/GitHub for updates; usage analytics are opt-in at first launch.
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — 🆕 🏠 🔓 🆓  
-  The C/C++ inference engine most local tools build on, with an OpenAI-compatible server (`llama serve` / llama-server). MIT, no account, no telemetry; the network is touched only when you pull models from Hugging Face (`-hf`) or use the installer.  
+  The C/C++ inference engine most local tools build on, with an OpenAI-compatible server (`llama serve` / llama-server) and a built-in web UI. MIT, no account, no telemetry; the network is touched only when you pull models from Hugging Face (`-hf`, or a download you start in the web UI), connect an MCP server you added, or use the installer. In v0.6.0 the web UI's new Hugging Face and llama.app catalog code is never called; later builds read model details and avatars from huggingface.co only if you turn on "Use Hugging Face Hub API for models metadata" (off by default).  
   <sub>★ 130.9k · v0.6.0 (2026-10-05)</sub>
 - **[LM Studio](https://lmstudio.ai)** — 🏠 🔒 🆓  
   Desktop app for running local models (plus the newer Bionic agent app); chats and documents stay on your machine when you use local models, no account needed. Closed source (CLI, SDKs and MLX engine are MIT). It still sends update checks and model searches to LM Studio, and sells optional paid cloud models (Bionic+/Pro) — the free tier is local.
@@ -124,7 +124,7 @@ Hosted, but the operator is locked out by cryptography, not by promise: end-to-e
 - **[Ente Photos](https://ente.com)** — 🆕 ☁️ 🏗️ 🏠 🔓 📜 🇪🇺 🆓 💰  
   End-to-end encrypted photo storage whose AI search (faces, scenes) runs on your device; the server only ever holds ciphertext and can be self-hosted. AGPL-3.0.
 - **[Maple (OpenSecret)](https://github.com/MaplePrivacyLabs/Maple)** — 🆕 ☁️ 🔓 🆓 💰  
-  Private AI chat: messages encrypted on device, decrypted only inside attested AWS Nitro Enclaves, inference in GPU TEEs; the client checks signed measurements first. Hosted, needs an account.  
+  Private AI chat: messages encrypted on device, decrypted only inside attested AWS Nitro Enclaves; the client checks signed measurements first. From there, inference goes only to GPU-TEE providers whose attestation the enclave checks first: Tinfoil and Continuum (Edgeless Systems' Privatemode). Leaves the enclaves: web search (on by default, toggle in the chat box) sends the model's search queries and opened URLs to Kagi; the desktop app checks for updates at launch and hourly (updates.trymaple.ai, GitHub fallback; can be turned off in settings). Hosted, needs an account.  
   <sub>★ 103 · v3.4.3 (2026-10-05)</sub>
 - **[Privatemode](https://www.privatemode.ai/)** — 🆕 ☁️ 🔓 🆓 💰 🇪🇺  
   Confidential-computing AI API and chat from Edgeless Systems (Germany) on AMD SEV-SNP / Intel TDX / NVIDIA H100-B200 confidential computing; the client-side proxy or SDK verifies remote attestation before any prompt is sent. Prompts are not stored or trained on; the web app keeps history in the browser. Leaves the machine: IP, timestamps, API key and token usage (up to 90 days; per-key usage kept for billing). Proxy and chat client MIT, core source-available for audit. EU-hosted.

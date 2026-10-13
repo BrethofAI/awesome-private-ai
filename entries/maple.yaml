@@ -4,7 +4,12 @@ url: https://github.com/MaplePrivacyLabs/Maple
 category: level-3-cant-see-provably
 category_label: Level 3 — Can't See, Provably
 tagline: 'Private AI chat: messages encrypted on device, decrypted only inside attested AWS
-  Nitro Enclaves, inference in GPU TEEs; the client checks signed measurements first.
+  Nitro Enclaves; the client checks signed measurements first. From there, inference goes
+  only to GPU-TEE providers whose attestation the enclave checks first: Tinfoil and Continuum
+  (Edgeless Systems'' Privatemode). Leaves the enclaves: web search (on by default, toggle in
+  the chat box) sends the model''s search queries and opened URLs to Kagi; the desktop app
+  checks for updates at launch and hourly (updates.trymaple.ai, GitHub fallback; can be
+  turned off in settings).
   Hosted, needs an account.'
 tags:
 - hosted
