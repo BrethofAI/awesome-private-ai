@@ -77,19 +77,19 @@ Nothing leaves the machine — the strongest guarantee there is. The full catalo
   Voice-to-text, translation and subtitles that never leave your machine: audio, transcripts, translations and personal training data stay local. 30 transcription languages (+22 Chinese dialects), offline translation across 38, SRT/VTT subtitles, a voice keyboard, an MCP server for agents. The network sees a licence key and a version string at launch, and nothing once the update check is off and the models are on disk. *Disclosure: maintained by us.*
 - **[Hyperconsciousness (hc)](https://github.com/louis030195/hyperconsciousness)** — 🆕 🏠 🔓 🆓 ❓  
   Encrypted, append-only knowledge store for agents (Rust, MIT) with scoped, expiring grants over MCP/HTTP; works with no hosted service, device sync optional. Developer alpha, no independent audit yet; installer builds auto-update from GitHub by default. Anything returned to a hosted model is visible to that model's provider.  
-  <sub>★ 7 · last push 2026-10-11</sub>
+  <sub>★ 7 · last push 2026-10-15</sub>
 - **[Jan](https://jan.ai)** — 🆕 🏠 🔓 🆓  
   Open-source (Apache-2.0) desktop chat that works fully offline; conversations and logs stay on your computer unless you choose a remote API. It checks jan.ai/GitHub for updates; usage analytics are opt-in at first launch.
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — 🆕 🏠 🔓 🆓  
   The C/C++ inference engine most local tools build on, with an OpenAI-compatible server (`llama serve` / llama-server) and a built-in web UI. MIT, no account, no telemetry; the network is touched only when you pull models from Hugging Face (`-hf`, or a download you start in the web UI), connect an MCP server you added, or use the installer. In v0.6.0 the web UI's new Hugging Face and llama.app catalog code is never called; later builds read model details and avatars from huggingface.co only if you turn on "Use Hugging Face Hub API for models metadata" (off by default).  
-  <sub>★ 130.9k · v0.6.0 (2026-10-05)</sub>
+  <sub>★ 131.6k · v0.7.0 (2026-10-15)</sub>
 - **[LM Studio](https://lmstudio.ai)** — 🏠 🔒 🆓  
   Desktop app for running local models (plus the newer Bionic agent app); chats and documents stay on your machine when you use local models, no account needed. Closed source (CLI, SDKs and MLX engine are MIT). It still sends update checks and model searches to LM Studio, and sells optional paid cloud models (Bionic+/Pro) — the free tier is local.
 - **[Ollama](https://ollama.com)** — 🏠 🔓 🆓  
   Local LLM runtime, MIT, no account needed for local models. Its cloud features (cloud models, web search) are on by default — for local-only, set OLLAMA_NO_CLOUD=1 or "disable_ollama_cloud": true in ~/.ollama/server.json. The macOS/Windows app auto-downloads updates.
 - **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** — 🆕 🏠 🔓 🆓  
   Whisper speech recognition fully offline on-device, including phones. MIT.  
-  <sub>★ 54.3k · v1.9.5 (2026-10-06)</sub>
+  <sub>★ 54.5k · v1.9.5 (2026-10-06)</sub>
 
 ## Level 2 — On Your Server
 
@@ -101,17 +101,17 @@ You run the whole stack on hardware you control, so the vendor never sees your d
   Self-hosted photo and video library; face recognition, CLIP search and OCR run in your own machine-learning container. Leaves the server by default: a new-version check, map tiles from tiles.immich.cloud, and a one-time ML model download from Hugging Face — all can be switched off in the config. AGPL-3.0.
 - **[LibreChat](https://github.com/LibreChat-AI/LibreChat)** — 🏗️ 🔓 🆓  
   Multi-model chat platform (MIT), owned by ClickHouse since Nov 2025. No vendor telemetry; logs stay on your server unless you point OpenTelemetry/Langfuse somewhere.  
-  <sub>★ 45.5k · last push 2026-10-12</sub>
+  <sub>★ 45.9k · last push 2026-10-18</sub>
 - **[LocalAI](https://localai.io)** — 🏠 🏗️ 🔓 🆓  
   OpenAI- and Anthropic-compatible server for text, voice, image, video and agents (MIT). No telemetry; only model/backend downloads from its gallery leave the box.
 - **[Open Notebook](https://github.com/lfnovo/open-notebook)** — 🆕 🏗️ 🔓 🆓  
   Self-hosted, open-source alternative to NotebookLM (MIT), with your own model backends and no cloud dependency.  
-  <sub>★ 40.1k · v1.15.0 (2026-10-04)</sub>
+  <sub>★ 40.3k · v1.15.0 (2026-10-04)</sub>
 - **[Open WebUI](https://openwebui.com)** — 🏗️ 🆓  
   Self-hosted chat UI for local + remote LLMs; pair it with Ollama or any OpenAI-compatible backend. Source-available since v0.6.6 (Apr 2025): BSD-3 plus a branding clause (over 50 users in 30 days may not remove the branding without permission); its docs say it is not OSI open source. Telemetry off in the official image, but it checks GitHub for updates by default — ENABLE_VERSION_UPDATE_CHECK=false or OFFLINE_MODE=true. Core is free; Terminals needs an enterprise licence.
 - **[RAGFlow](https://github.com/infiniflow/ragflow)** — 🆕 🏗️ 🔓 🆓  
   Self-hosted RAG engine with agents (Apache-2.0); you host the whole stack in Docker and can pair it with local models.  
-  <sub>★ 92k · v1.0.0-rc1 (2026-09-29)</sub>
+  <sub>★ 92.4k · v1.0.0-rc2 (2026-10-16)</sub>
 - **[vLLM](https://docs.vllm.ai)** — 🏗️ 🔓 🆓  
   High-throughput LLM serving you run yourself — no per-token middleman. Sends anonymous usage stats (hardware, model architecture, config) by default; opt out with VLLM_NO_USAGE_STATS=1 or DO_NOT_TRACK=1.
 
@@ -125,7 +125,7 @@ Hosted, but the operator is locked out by cryptography, not by promise: end-to-e
   End-to-end encrypted photo storage whose AI search (faces, scenes) runs on your device; the server only ever holds ciphertext and can be self-hosted. AGPL-3.0.
 - **[Maple (OpenSecret)](https://github.com/MaplePrivacyLabs/Maple)** — 🆕 ☁️ 🔓 🆓 💰  
   Private AI chat: messages encrypted on device, decrypted only inside attested AWS Nitro Enclaves; the client checks signed measurements first. From there, inference goes only to GPU-TEE providers whose attestation the enclave checks first: Tinfoil and Continuum (Edgeless Systems' Privatemode). Leaves the enclaves: web search (on by default, toggle in the chat box) sends the model's search queries and opened URLs to Kagi; the desktop app checks for updates at launch and hourly (updates.trymaple.ai, GitHub fallback; can be turned off in settings). Hosted, needs an account.  
-  <sub>★ 103 · v3.4.3 (2026-10-05)</sub>
+  <sub>★ 105 · v3.4.4 (2026-10-12)</sub>
 - **[Privatemode](https://www.privatemode.ai/)** — 🆕 ☁️ 🔓 🆓 💰 🇪🇺  
   Confidential-computing AI API and chat from Edgeless Systems (Germany) on AMD SEV-SNP / Intel TDX / NVIDIA H100-B200 confidential computing; the client-side proxy or SDK verifies remote attestation before any prompt is sent. Prompts are not stored or trained on; the web app keeps history in the browser. Leaves the machine: IP, timestamps, API key and token usage (up to 90 days; per-key usage kept for billing). Proxy and chat client MIT, core source-available for audit. EU-hosted.
 - **[Tinfoil](https://tinfoil.sh)** — 🆕 ☁️ 🔓 💰  
@@ -163,7 +163,7 @@ Closed weights = closed privacy story. Public weights let you read what the mode
   <sub>★ 3.7k · last push 2026-06-26</sub>
 - **[Whisper](https://github.com/openai/whisper)**  
   OpenAI's open-weights speech recognition, MIT. No model newer than large-v3-turbo (October 2024), but the repo is maintained.  
-  <sub>★ 110.3k · v20250625 (2025-06-26)</sub>
+  <sub>★ 110.8k · v20250625 (2025-06-26)</sub>
 
 ## Privacy Auditing Tools
 
@@ -177,7 +177,7 @@ Verify the claims of vendors you have to use.
   Intercept-and-inspect HTTP/S traffic. See what an "offline" tool actually sends home.
 - **[OpenSnitch](https://github.com/evilsocket/opensnitch)** — 🔓 🆓 🐧  
   Application-level firewall for Linux. Confirm a desktop AI tool isn't talking to anyone.  
-  <sub>★ 14.1k · v1.8.0 (2025-12-15)</sub>
+  <sub>★ 14.2k · v1.8.0 (2025-12-15)</sub>
 - **[Portmaster](https://safing.io/)** — 🆕 🔓 🆓 💰 🐧  
   Application firewall that shows and blocks every connection per app — see what your AI tools contact. Windows and Linux. Leaves the machine: signed updates and blocklist/GeoIP data download automatically, and DNS goes to Cloudflare over DoT by default (configurable). Network history and the SPN relay are paid. GPL-3.0.
 - **[Wireshark](https://www.wireshark.org)** — 🔓 🆓  
