@@ -1,24 +1,5 @@
 {
- "checked": "2026-10-18",
+ "checked": "2026-10-25",
  "since": true,
- "changes": [
-  {
-   "slug": "llama-cpp",
-   "name": "llama.cpp",
-   "kind": "release",
-   "detail": "v0.6.0 → v0.7.0 (2026-10-15)"
-  },
-  {
-   "slug": "maple",
-   "name": "Maple (OpenSecret)",
-   "kind": "release",
-   "detail": "v3.4.3 → v3.4.4 (2026-10-12)"
-  },
-  {
-   "slug": "ragflow",
-   "name": "RAGFlow",
-   "kind": "release",
-   "detail": "v1.0.0-rc1 → v1.0.0-rc2 (2026-10-16)"
-  }
- ]
+ "changes": []
 }
