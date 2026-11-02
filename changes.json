@@ -1,5 +1,30 @@
 {
- "checked": "2026-10-25",
+ "checked": "2026-11-02",
  "since": true,
- "changes": []
+ "changes": [
+  {
+   "slug": "llama-cpp",
+   "name": "llama.cpp",
+   "kind": "release",
+   "detail": "v0.7.0 → v0.8.0 (2026-10-28)"
+  },
+  {
+   "slug": "maple",
+   "name": "Maple (OpenSecret)",
+   "kind": "release",
+   "detail": "v3.4.4 → v3.4.6 (2026-11-01)"
+  },
+  {
+   "slug": "ragflow",
+   "name": "RAGFlow",
+   "kind": "release",
+   "detail": "v1.0.0-rc2 → v1.0.0-rc3 (2026-10-30)"
+  },
+  {
+   "slug": "vllm",
+   "name": "vLLM",
+   "kind": "title",
+   "detail": "homepage title was «vLLM», now «Just a moment...»"
+  }
+ ]
 }
