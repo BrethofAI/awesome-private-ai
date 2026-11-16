@@ -82,14 +82,14 @@ Nothing leaves the machine — the strongest guarantee there is. The full catalo
   Open-source (Apache-2.0) desktop chat that works fully offline; conversations and logs stay on your computer unless you choose a remote API. It checks jan.ai/GitHub for updates; usage analytics are opt-in at first launch.
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — 🆕 🏠 🔓 🆓  
   The C/C++ inference engine most local tools build on, with an OpenAI-compatible server (`llama serve` / llama-server) and a built-in web UI. MIT, no account, no telemetry; the network is touched only when you pull models from Hugging Face (`-hf`, or a download you start in the web UI), connect an MCP server you added, use the installer, or turn on an option that is off by default: the web UI's "Use the Hugging Face Hub API" (model details and avatars from huggingface.co) or "Enable Discover Models" (also the llama.app catalog), or the experimental `--connect` remote access (v0.8.0), which announces the server on public WebTorrent trackers and uses Google STUN servers to open a peer-to-peer tunnel.  
-  <sub>★ 133.8k · v0.9.0 (2026-11-04)</sub>
+  <sub>★ 135.2k · v1.0.0 (2026-11-13)</sub>
 - **[LM Studio](https://lmstudio.ai)** — 🏠 🔒 🆓  
   Desktop app for running local models (plus the newer Bionic agent app); chats and documents stay on your machine when you use local models, no account needed. Closed source (CLI, SDKs and MLX engine are MIT). It still sends update checks and model searches to LM Studio, and sells optional paid cloud models (Bionic+/Pro) — the free tier is local.
 - **[Ollama](https://ollama.com)** — 🏠 🔓 🆓  
   Local LLM runtime, MIT, no account needed for local models. Its cloud features (cloud models, web search) are on by default — for local-only, set OLLAMA_NO_CLOUD=1 or "disable_ollama_cloud": true in ~/.ollama/server.json. The macOS/Windows app auto-downloads updates.
 - **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** — 🆕 🏠 🔓 🆓  
   Whisper speech recognition fully offline on-device, including phones. MIT.  
-  <sub>★ 55k · v1.9.5 (2026-10-06)</sub>
+  <sub>★ 55.2k · v1.9.5 (2026-10-06)</sub>
 
 ## Level 2 — On Your Server
 
@@ -101,17 +101,17 @@ You run the whole stack on hardware you control, so the vendor never sees your d
   Self-hosted photo and video library; face recognition, CLIP search and OCR run in your own machine-learning container. Leaves the server by default: a new-version check, map tiles from tiles.immich.cloud, and a one-time ML model download from Hugging Face — all can be switched off in the config. AGPL-3.0.
 - **[LibreChat](https://github.com/LibreChat-AI/LibreChat)** — 🏗️ 🔓 🆓  
   Multi-model chat platform (MIT), owned by ClickHouse since Nov 2025. No vendor telemetry; logs stay on your server unless you point OpenTelemetry/Langfuse somewhere.  
-  <sub>★ 46.9k · last push 2026-11-08</sub>
+  <sub>★ 47.2k · last push 2026-11-15</sub>
 - **[LocalAI](https://localai.io)** — 🏠 🏗️ 🔓 🆓  
   OpenAI- and Anthropic-compatible server for text, voice, image, video and agents (MIT). No telemetry; only model/backend downloads from its gallery leave the box.
 - **[Open Notebook](https://github.com/lfnovo/open-notebook)** — 🆕 🏗️ 🔓 🆓  
   Self-hosted, open-source alternative to NotebookLM (MIT), with your own model backends and no cloud dependency.  
-  <sub>★ 41.8k · v1.15.1 (2026-11-04)</sub>
+  <sub>★ 42k · v1.15.1 (2026-11-04)</sub>
 - **[Open WebUI](https://openwebui.com)** — 🏗️ 🆓  
   Self-hosted chat UI for local + remote LLMs; pair it with Ollama or any OpenAI-compatible backend. Source-available since v0.6.6 (Apr 2025): BSD-3 plus a branding clause (over 50 users in 30 days may not remove the branding without permission); its docs say it is not OSI open source. Telemetry off in the official image, but it checks GitHub for updates by default — ENABLE_VERSION_UPDATE_CHECK=false or OFFLINE_MODE=true. Core is free; Terminals needs an enterprise licence.
 - **[RAGFlow](https://github.com/infiniflow/ragflow)** — 🆕 🏗️ 🔓 🆓  
   Self-hosted RAG engine with agents (Apache-2.0); you host the whole stack in Docker and can pair it with local models.  
-  <sub>★ 93.8k · v1.0.0 (2026-11-06)</sub>
+  <sub>★ 94.2k · v1.0.0 (2026-11-06)</sub>
 - **[vLLM](https://docs.vllm.ai)** — 🏗️ 🔓 🆓  
   High-throughput LLM serving you run yourself — no per-token middleman. Sends anonymous usage stats (hardware, model architecture, config) by default; opt out with VLLM_NO_USAGE_STATS=1 or DO_NOT_TRACK=1.
 
@@ -125,7 +125,7 @@ Hosted, but the operator is locked out by cryptography, not by promise: end-to-e
   End-to-end encrypted photo storage whose AI search (faces, scenes) runs on your device; the server only ever holds ciphertext and can be self-hosted. AGPL-3.0.
 - **[Maple (OpenSecret)](https://github.com/MaplePrivacyLabs/Maple)** — 🆕 ☁️ 🔓 🆓 💰  
   Private AI chat: messages encrypted on device, decrypted only inside attested AWS Nitro Enclaves; the client checks signed measurements first. From there, inference goes only to GPU-TEE providers whose attestation the enclave checks first: Tinfoil and Continuum (Edgeless Systems' Privatemode). Leaves the enclaves: web search (on by default, toggle in the chat box) sends the model's search queries and opened URLs to Kagi; the desktop app checks for updates at launch and hourly (updates.trymaple.ai, GitHub fallback; can be turned off in settings). Hosted, needs an account.  
-  <sub>★ 116 · v3.4.8 (2026-11-05)</sub>
+  <sub>★ 120 · v3.4.9 (2026-11-14)</sub>
 - **[Privatemode](https://www.privatemode.ai/)** — 🆕 ☁️ 🔓 🆓 💰 🇪🇺  
   Confidential-computing AI API and chat from Edgeless Systems (Germany) on AMD SEV-SNP / Intel TDX / NVIDIA H100-B200 confidential computing; the client-side proxy or SDK verifies remote attestation before any prompt is sent. Prompts are not stored or trained on; the web app keeps history in the browser. Leaves the machine: IP, timestamps, API key and token usage (up to 90 days; per-key usage kept for billing). Proxy and chat client MIT, core source-available for audit. EU-hosted.
 - **[Tinfoil](https://tinfoil.sh)** — 🆕 ☁️ 🔓 💰  
@@ -163,7 +163,7 @@ Closed weights = closed privacy story. Public weights let you read what the mode
   <sub>★ 3.9k · last push 2026-06-26</sub>
 - **[Whisper](https://github.com/openai/whisper)**  
   OpenAI's open-weights speech recognition, MIT. No model newer than large-v3-turbo (October 2024), but the repo is maintained.  
-  <sub>★ 112.3k · v20250625 (2025-06-26)</sub>
+  <sub>★ 112.8k · v20250625 (2025-06-26)</sub>
 
 ## Privacy Auditing Tools
 
