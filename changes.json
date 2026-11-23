@@ -1,18 +1,18 @@
 {
- "checked": "2026-11-16",
+ "checked": "2026-11-23",
  "since": true,
  "changes": [
-  {
-   "slug": "llama-cpp",
-   "name": "llama.cpp",
-   "kind": "release",
-   "detail": "v0.9.0 → v1.0.0 (2026-11-13)"
-  },
   {
    "slug": "maple",
    "name": "Maple (OpenSecret)",
    "kind": "release",
-   "detail": "v3.4.8 → v3.4.9 (2026-11-14)"
+   "detail": "v3.4.9 → v3.4.10 (2026-11-21)"
+  },
+  {
+   "slug": "vllm",
+   "name": "vLLM",
+   "kind": "title",
+   "detail": "homepage title was «vLLM», now «Just a moment...»"
   }
  ]
 }
